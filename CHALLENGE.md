@@ -4,7 +4,7 @@
 
 Your video script generator works—but it's bounded by its few shot examples. It can only remix what it's seen.
 
-We want you to build something way harder: **an engine that generates content more creative than its examples.**
+We want you to build something way harder: **an engine that generates truly creative content.**
 
 If you solve this, the same engine powers everything we build: video scripts, ads, Reddit posts, LinkedIn content, emails.
 
@@ -12,7 +12,7 @@ If you solve this, the same engine powers everything we build: video scripts, ad
 
 ## The Research Question
 
-**How do you make LLM outputs more creative—measurably—without sacrificing quality?**
+**How do you make LLM outputs more creative without sacrificing quality?**
 
 Not "more random." Not "higher temperature." Actually creative: novel, surprising, yet effective.
 
@@ -80,11 +80,11 @@ print(score....)
 
 ### 3. Integration Demo
 
-Show it working in your Veo3 pipeline:
+Show it working in the Veo3 PoC:
 
 - 5 scripts from your original few-shot system (baseline)
 - 5 scripts from the Creative Engine (improved)
-- Creativity scores for all 10
+- Creativity scores for all of them
 - Brief analysis: what changed? what's better? what's worse?
 
 ---
@@ -132,8 +132,10 @@ Address these questions:
 
 ## Timeline
 
-**3/4 days.**
+**3/4 days**
 
-**Use AI tools and think out of the box**
+## Notes
+
+Use AI tools (claude code, cursor etc) and **think out of the box.**
 
 ---
