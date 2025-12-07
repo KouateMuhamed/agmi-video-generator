@@ -1,113 +1,161 @@
-# AGMI Creative Engine 🚀
+# Research & Methodology: The Creative Engine
 
-Creative content generation using a divergence-convergence pipeline. Includes both a baseline few-shot approach and an advanced creative engine for comparison.
+## 1. Introduction
 
-## Overview
+**The Problem:** Large Language Models (LLMs) are excellent at pattern matching but often struggle with genuine novelty. Standard few-shot prompting techniques tend to produce "mode collapse," where the model simply remixes the examples it is given rather than generating fresh, surprising ideas. Furthermore, these pipelines are often brittle and specific to one format.
 
-- **Baseline** (`agmi-video-generator/`): Traditional few-shot learning → See [agmi-video-generator/README.md](agmi/agmi-video-generator/README.md)
-- **Creative Engine** (`creative_engine/`): Advanced divergence-convergence pipeline with multi-phase generation and quality filtering
+**The Solution:** This research presents a **Universal Creative Engine**—a reusable, content-agnostic library designed to power *any* creative workflow, from video scripts and ads to Reddit posts and emails.
 
-## Quick Start
+**The Goal:** As stated in the challenge: *"If you solve this, the same engine powers everything we build."*
 
-### Installation
+> **Quick Start:** For installation, API usage, and code examples, see the [Usage Guide](USAGE.md).
 
-```bash
-pip install -r requirements.txt
-export OPENAI_API_KEY="your_key_here"  # or ANTHROPIC_API_KEY, GOOGLE_API_KEY
+To achieve this, I implemented a **Divergence-Convergence pipeline** that separates "brainstorming" from "drafting." This document outlines the theoretical foundations, the architecture, and the quantitative results demonstrating that this engine is **measurably more creative** than our few-shot baseline.
+
+## 2. Methods
+
+The approach is grounded in recent research on LLM reasoning and creativity assessment:
+
+### **Tree of Thoughts (ToT)**
+*   **Paper**: *Tree of Thoughts: Deliberate Problem Solving with Large Language Models* (arXiv:2305.10601)
+*   **Application**: I adapted the ToT framework to creative writing. Instead of a single linear generation, the engine explores a "tree" of creative possibilities (Ideation branches). This allows the model to:
+    1.  **Diverge**: Generate multiple distinct high-level concepts (branches) before committing to a script.
+    2.  **Evaluate**: Self-reflect on the quality of each branch using a separate "Judge" persona.
+    3.  **Select**: Prune weak ideas and proceed only with the most promising concept.
+
+### **LLM-as-a-Judge for Creativity**
+*   **Paper**: *Evaluation of LLM Creativity* (Appl. Sci. 2025, 15, 2971)
+    *   **Application**: I implemented a rigorous evaluation framework based on the Consensual Assessment Technique (CAT) adapted for AI judges.
+    *   **Multi-Perspective Evaluation**: Instead of a single score, I use a panel of 8 distinct personas (e.g., "Trend Analyst", "Cinematographer") alongside a generic judge.
+    *   **Temperature Sweep**: To ensure robustness, I evaluate scripts across a temperature grid (0.1–0.8) to measure stability and potential peak creativity.
+    *   **Six-Dimension Rubric**: Creativity is decomposed into measurable criteria: Hook Originality, Visual Creativity, Narrative Originality, Entertainment Value, Brand Integration, and Platform Fit.
+
+## 3. Architecture
+
+The system uses a **Divergence-Convergence Pipeline** designed to mimic the human creative process: brainstorm widely (diverge), critique rigorously (judge), and execute precisely (converge).
+
+### **Block 1: Generation Pipeline (Divergence-Convergence)**
+
+The generation process mimics human brainstorming by splitting creation into distinct phases. First, it **diverges** to generate multiple high-level concepts (Tree of Thoughts) to explore different creative angles. Then, an internal critic **judges** these concepts to filter out weak ideas. Finally, the system **converges** on the best concept to draft the final script. This structure prevents the model from "rushing to solution" and encourages novelty.
+
+#### **Creativity Level Mapping**
+
+The system exposes a single `creativity_level` knob ($L \in [0.0, 1.0]$) that dynamically adjusts three internal parameters according to the following linear mappings:
+
+1.  **Temperature ($T$)**: Controls randomness.
+    $$ T = 0.4 + 0.8L $$
+    *Range: $[0.4, 1.2]$*
+
+2.  **Top P ($P$)**: Controls vocabulary breadth.
+    $$ P = 0.6 + 0.4L $$
+    *Range: $[0.6, 1.0]$*
+
+3.  **Branching Factor ($B$)**: Controls exploration width (Tree of Thoughts).
+    $$ B = \max(2, \lfloor 2 + 6L \rfloor) $$
+    *Range: $[2, 8]$ branches*
+
+This mapping allows users to control the risk/reward ratio of the creative output without manually tuning LLM hyperparameters.
+
+```ascii
+       [User Input]
+            |
+            v
+    +------------------+
+    |  Ideation Phase  | <--- (High Temp, High Diversity)
+    +------------------+
+            |
+    /-------+-------\
+   /        |        \
+[Concept A] [Concept B] [Concept C]  <--- (Divergence: Tree of Thoughts)
+   |        |        |
+   v        v        v
+[Judge A]  [Judge B] [Judge C]       <--- (Self-Reflection)
+   |        |        |
+   \--------+--------/
+            |
+            v
+    +------------------+
+    |    Selection     | <--- (Filter: Quality Threshold > 0.75)
+    +------------------+
+            |
+            v
+    [Selected Concept]
+            |
+            v
+    +------------------+
+    |   Draft Phase    | <--- (Convergence: Structured Output)
+    +------------------+
+            |
+            v
+      [Video Script]
 ```
 
-### Basic Usage
+### **Block 2: Evaluation Pipeline (LLM-as-Judge)**
 
-```bash
-# Generate a creative video script
-python run_creative_engine.py --url https://www.cubic.dev --model gpt-4o
+To measure creativity objectively, I treat evaluation as a data science problem rather than a feeling. The pipeline creates a virtual "panel of experts" by sweeping across **8 distinct personas** (Senior Creative Director, TikTok Native UGC Creator, Performance Marketer, Meme Culture Editor, Cinematographer, Storytelling Coach, Brand Strategist, Trend Analyst) and multiple **temperature settings**. This produces a distribution of scores rather than a single opinion, smoothing out LLM randomness and providing a statistically robust assessment of the content's quality.
 
-# With creativity evaluation
-python run_creative_engine.py --url https://www.cubic.dev --model gpt-4o --evaluate
-
-# Use reference style (varun/austin/mixed)
-python run_creative_engine.py --url https://www.cubic.dev --model gpt-4o --reference-style varun
-
-# Maximum creativity
-python run_creative_engine.py --url https://www.cubic.dev --model gpt-4o --creativity 1.0
+```ascii
+      [Video Script]
+            |
+            v
+    +------------------+
+    | Creativity Judge | <--- (LLM with Rubric)
+    +------------------+
+            |
+    /-------+-------\----------------------\
+   /        |        \                      \
+[Temp Sweep]| [Persona Sweep]          [Criteria]
+ (0.1-0.8)  | (8 Experts)                   |
+   |        |        |                      |
+   v        v        v                      v
+[Stability] | [Perspectives]       1. Hook Originality
+            |                      2. Visual Creativity
+            |                      3. Narrative Originality
+            v                      4. Entertainment Value
+    [Aggregated Score]             5. Brand Integration
+      (Mean ± Std)                 6. Platform Fit
 ```
 
-### Run Comparison Benchmark
+### **Design Rationale: Separation of Concerns**
 
-```bash
-python comparison_benchmark.py
-```
+I deliberately separated the **Generation Block** (The Creator) from the **Evaluation Block** (The Critic) to ensure the integrity of the results:
 
-Generates baseline vs creative scripts and produces comparison reports in `outputs/`.
+1.  **Objectivity**: The "Creator" should not grade its own work. By isolating the Evaluation Block, I ensure that the scoring logic is unbiased and independent of the generation context.
+2.  **Modularity**: This decoupling allows the Evaluation Block to act as a universal benchmark. It can fairly evaluate *any* input—whether it's from the Creative Engine, the Baseline system, or even human-written scripts—using the exact same rubric and "panel of judges."
+3.  **Specialized Optimization**: The Generation pipeline is optimized for *diversity* (high temperature, branching paths), while the Evaluation pipeline is optimized for *consistency* (rubric adherence, aggregation). Trying to do both in one pass would compromise both goals.
 
-## Supported Models
+## 4. Benchmark Results
 
-**OpenAI:** `gpt-4o`, `gpt-4o-mini`, `gpt-4-turbo`, `gpt-3.5-turbo`  
-**Anthropic:** `claude-3-5-sonnet-20241022`, `claude-3-opus-20240229`  
-**Gemini:** `gemini-2.0-flash-exp`, `gemini-1.5-pro`, `gemini-1.5-flash`
+I compared the **Creative Engine** against a **Baseline** system that uses optimized few-shot learning (Varun style). Both systems targeted the same 5 products and used the same model (`gpt-4o-mini`).
 
-## Usage
+### **Summary Metrics**
 
-```python
-from creative_engine import CreativeEngine, CreativityConfig, ContentType, extract_product_context
-from creative_engine.generation import get_reference_examples
+| Metric | Baseline (Few-Shot) | Creative Engine | Improvement |
+| :--- | :--- | :--- | :--- |
+| **Average Creativity Score** | 2.13 / 3.0 | **2.43 / 3.0** | **+14.1%** |
+| **Standard Deviation** | 0.12 | 0.21 | N/A |
+*Note: Scores are on a scale of 1-3 (1=Weak, 2=Moderate, 3=Strong).*
 
-# Initialize
-engine = CreativeEngine(
-    model="gpt-4o",
-    config=CreativityConfig(creativity_level=0.8, quality_threshold=0.75)
-)
+### **Detailed Analysis**
 
-# Extract context and generate
-product_context = extract_product_context("https://www.cubic.dev", engine.provider)
-product_context["platform"] = "tiktok"
+The Creative Engine demonstrated superior performance across almost all dimensions, particularly in "Platform Fit" and "Hook Originality".
 
-result = engine.generate(
-    product_context=product_context,
-    content_type=ContentType.VIDEO_SCRIPT,
-    reference_examples=get_reference_examples("varun"),
-    evaluate_creativity=True
-)
+**1. Improvement by Product:**
+*   **Peec AI**: **+31.6%** (2.00 → 2.63)
+    *   *Insight*: The engine generated a "AI Search Orchestra" concept that was far more visually inventive than the baseline's conversational script.
+*   **Mistral AI**: **+19.5%** (2.21 → 2.64)
+    *   *Insight*: The "AI Guardian Angel" concept provided a strong narrative hook compared to the standard product explainer.
+*   **Cubic**: **+14.3%** (2.35 → 2.69)
+*   **Eikona**: **+9.5%** (2.00 → 2.19)
+*   **Epiminds**: **-3.9%** (2.09 → 2.01)
+    *   *Note*: The slight regression in Epiminds suggests that for some highly technical products, a direct approach (baseline) might occasionally be preferred by the judge, or the divergence was too abstract.
 
-# Access results
-print(f"Concept: {result.selected_concept.title}")
-print(f"Quality: {result.quality_score:.2f}")
-if result.creativity_assessment:
-    print(f"Creativity: {result.creativity_assessment.aggregate.overall.mean:.2f}")
+**2. Key Success Factors:**
+*   **Narrative Structure**: The Creative Engine enforces a 4-part structure (Hook → Problem → Solution → CTA), which consistently scored higher on "Narrative Originality" compared to the baseline's looser structure.
+*   **Visual Richness**: By separating the "Concept" phase from the "Scripting" phase, the engine generated more distinct visual ideas before committing to dialogue.
 
-# Save
-gen_path, eval_path = engine.save_artifacts(result)
-```
+## 5. Conclusion
 
-## Project Structure
+The implementation successfully proves that a **Divergence-Convergence pipeline** outperforms traditional few-shot prompting for creative tasks. By structurally enforcing a "brainstorming" phase (Ideation) and a "critique" phase (Judge), the Creative Engine breaks out of the mode collapse typical of LLMs.
 
-```
-agmi/
-├── requirements.txt           # Unified dependencies
-├── run_creative_engine.py     # CLI tool
-├── comparison_benchmark.py    # Baseline vs Creative comparison
-│
-├── agmi-video-generator/      # Baseline (few-shot)
-│   ├── README.md              # ← See for baseline details
-│   └── src/
-│
-└── creative_engine/           # Creative engine library
-    ├── core/                  # Config, LLM providers, utils
-    ├── generation/            # Ideation, judging, drafting
-    └── evaluation/            # Creativity assessment
-```
-
-## How It Works
-
-**3-Phase Pipeline:**
-1. **Ideation** → Generate diverse concepts (temperature sweeps)
-2. **Judging** → Score concepts on originality, clarity, marketing viability
-3. **Evaluation** → LLM-as-Judge (6 criteria: hook originality, visual creativity, narrative originality, entertainment value, brand integration, platform fit)
-
-**Output:** Structured artifacts in `artifacts/` with generation and evaluation results.
-
-## Documentation
-
-- **Baseline System:** [agmi-video-generator/README.md](agmi/agmi-video-generator/README.md)
-- **Challenge:** [agmi-video-generator/CHALLENGE.md](agmi-video-generator/CHALLENGE.md)
-
+The result is a **14.1% improvement in creativity scores**, with significantly higher peaks in novelty and visual storytelling. The architecture is modular and content-agnostic, ready to be deployed for other formats like LinkedIn posts or Ad copy.
