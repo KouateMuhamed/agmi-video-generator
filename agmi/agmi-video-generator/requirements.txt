@@ -1,5 +1,0 @@
-google-genai
-moviepy
-requests
-beautifulsoup4
-
