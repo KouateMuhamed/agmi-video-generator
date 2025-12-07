@@ -17,14 +17,14 @@ To achieve this, I implemented a **Divergence-Convergence pipeline** that separa
 The approach is grounded in recent research on LLM reasoning and creativity assessment:
 
 ### **Tree of Thoughts (ToT)**
-*   **Paper**: *Tree of Thoughts: Deliberate Problem Solving with Large Language Models* (arXiv:2305.10601)
+*   **Paper**: *Tree of Thoughts: Deliberate Problem Solving with Large Language Models* (https://arxiv.org/abs/2305.10601)
 *   **Application**: I adapted the ToT framework to creative writing. Instead of a single linear generation, the engine explores a "tree" of creative possibilities (Ideation branches). This allows the model to:
     1.  **Diverge**: Generate multiple distinct high-level concepts (branches) before committing to a script.
     2.  **Evaluate**: Self-reflect on the quality of each branch using a separate "Judge" persona.
     3.  **Select**: Prune weak ideas and proceed only with the most promising concept.
 
 ### **LLM-as-a-Judge for Creativity**
-*   **Paper**: *Evaluation of LLM Creativity* (Appl. Sci. 2025, 15, 2971)
+*   **Paper**: *Evaluation of LLM Creativity* (https://www.mdpi.com/2076-3417/15/6/2971)
     *   **Application**: I implemented a rigorous evaluation framework based on the Consensual Assessment Technique (CAT) adapted for AI judges.
     *   **Multi-Perspective Evaluation**: Instead of a single score, I use a panel of 8 distinct personas (e.g., "Trend Analyst", "Cinematographer") alongside a generic judge.
     *   **Temperature Sweep**: To ensure robustness, I evaluate scripts across a temperature grid (0.1–0.8) to measure stability and potential peak creativity.
@@ -43,15 +43,15 @@ The generation process mimics human brainstorming by splitting creation into dis
 The system exposes a single `creativity_level` knob ($L \in [0.0, 1.0]$) that dynamically adjusts three internal parameters according to the following linear mappings:
 
 1.  **Temperature ($T$)**: Controls randomness.
-    $$ T = 0.4 + 0.8L $$
+    $ T = 0.4 + 0.8L $
     *Range: $[0.4, 1.2]$*
 
 2.  **Top P ($P$)**: Controls vocabulary breadth.
-    $$ P = 0.6 + 0.4L $$
+    $ P = 0.6 + 0.4L $
     *Range: $[0.6, 1.0]$*
 
 3.  **Branching Factor ($B$)**: Controls exploration width (Tree of Thoughts).
-    $$ B = \max(2, \lfloor 2 + 6L \rfloor) $$
+    $ B = \max(2, \lfloor 2 + 6L \rfloor) $
     *Range: $[2, 8]$ branches*
 
 This mapping allows users to control the risk/reward ratio of the creative output without manually tuning LLM hyperparameters.
