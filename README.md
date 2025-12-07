@@ -46,7 +46,7 @@ Generates baseline vs creative scripts and produces comparison reports in `outpu
 **Anthropic:** `claude-3-5-sonnet-20241022`, `claude-3-opus-20240229`  
 **Gemini:** `gemini-2.0-flash-exp`, `gemini-1.5-pro`, `gemini-1.5-flash`
 
-## Programmatic Usage
+## Usage
 
 ```python
 from creative_engine import CreativeEngine, CreativityConfig, ContentType, extract_product_context
