@@ -4,7 +4,7 @@ Creative content generation using a divergence-convergence pipeline. Includes bo
 
 ## Overview
 
-- **Baseline** (`agmi-video-generator/`): Traditional few-shot learning → See [agmi-video-generator/README.md](agmi-video-generator/README.md)
+- **Baseline** (`agmi-video-generator/`): Traditional few-shot learning → See [agmi-video-generator/README.md](agmi/agmi-video-generator/README.md)
 - **Creative Engine** (`creative_engine/`): Advanced divergence-convergence pipeline with multi-phase generation and quality filtering
 
 ## Quick Start
@@ -108,6 +108,6 @@ agmi/
 
 ## Documentation
 
-- **Baseline System:** [agmi-video-generator/README.md](agmi-video-generator/README.md)
+- **Baseline System:** [agmi-video-generator/README.md](agmi/agmi-video-generator/README.md)
 - **Challenge:** [agmi-video-generator/CHALLENGE.md](agmi-video-generator/CHALLENGE.md)
 
