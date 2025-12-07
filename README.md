@@ -134,6 +134,7 @@ I compared the **Creative Engine** against a **Baseline** system that uses optim
 | :--- | :--- | :--- | :--- |
 | **Average Creativity Score** | 2.13 / 3.0 | **2.43 / 3.0** | **+14.1%** |
 | **Standard Deviation** | 0.12 | 0.21 | N/A |
+
 *Note: Scores are on a scale of 1-3 (1=Weak, 2=Moderate, 3=Strong).*
 
 ### **Detailed Analysis**
