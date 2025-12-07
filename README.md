@@ -101,8 +101,8 @@ agmi/
 
 **3-Phase Pipeline:**
 1. **Ideation** → Generate diverse concepts (temperature sweeps)
-2. **Judging** → Score on novelty, surprise, value, memorability
-3. **Evaluation** → Optional LLM-as-Judge creativity assessment
+2. **Judging** → Score concepts on originality, clarity, marketing viability
+3. **Evaluation** → LLM-as-Judge (6 criteria: hook originality, visual creativity, narrative originality, entertainment value, brand integration, platform fit)
 
 **Output:** Structured artifacts in `artifacts/` with generation and evaluation results.
 
