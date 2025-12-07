@@ -6,6 +6,7 @@ venv/
 .env
 
 # Project specific
+artifacts/
 output/
 .DS_Store
 
