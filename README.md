@@ -42,29 +42,28 @@ The generation process mimics human brainstorming by splitting creation into dis
 
 The system exposes a single `creativity_level` knob \( L \in [0.0, 1.0] \) that dynamically adjusts three internal parameters according to the following mappings:
 
-1. **Temperature (\(T\))** — Controls randomness.
+1. **Temperature (T)** — Controls randomness.
 
-   $$
+```bash
    T = 0.4 + 0.8L
-   $$
+```
+   Range: [0.4, 1.2]
 
-   Range: \([0.4, 1.2]\)
+2. **Top-P (P)** — Controls vocabulary breadth.
 
-2. **Top-P (\(P\))** — Controls vocabulary breadth.
-
-   $$
+```bash
    P = 0.6 + 0.4L
-   $$
+```
 
-   Range: \([0.6, 1.0]\)
+   Range: [0.6, 1.0]
 
-3. **Branching Factor (\(B\))** — Controls exploration width (Tree of Thoughts).
+3. **Branching Factor (B)** — Controls exploration width (Tree of Thoughts).
 
-   $$
-   B = \max \left( 2,\; \lfloor 2 + 6L \rfloor \right)
-   $$
+```bash
+   B = max(2, floor(2 + 6 * L))
+```
 
-   Range: \([2, 8]\) branches
+   Range: [2, 8] branches
 
 This mapping allows users to control the risk/reward ratio of the creative output without manually tuning LLM hyperparameters.
 
