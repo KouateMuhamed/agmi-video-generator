@@ -148,6 +148,8 @@ I compared the **Creative Engine** against a **Baseline** system that uses optim
 
 *Note: Scores are on a scale of 1-3 (1=Weak, 2=Moderate, 3=Strong).*
 
+Detailed comparison results are available in [`agmi/outputs/comparison.json`](agmi/outputs/comparison.json).
+
 ### **Detailed Analysis**
 
 The Creative Engine demonstrated superior performance across almost all dimensions, particularly in "Platform Fit" and "Hook Originality".
