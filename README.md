@@ -2,13 +2,11 @@
 
 ## 1. Introduction
 
-**The Problem:** Large Language Models (LLMs) are excellent at pattern matching but often struggle with genuine novelty. Standard few-shot prompting techniques tend to produce "mode collapse," where the model simply remixes the examples it is given rather than generating fresh, surprising ideas. Furthermore, these pipelines are often brittle and specific to one format.
+Large Language Models (LLMs) have demonstrated remarkable proficiency in pattern matching and content generation; however, they often struggle to produce genuinely novel outputs. Traditional few-shot prompting techniques frequently result in "mode collapse," where the model merely remixes provided examples rather than generating fresh, divergent ideas. Furthermore, existing pipelines are often brittle, format-specific, and difficult to scale across different content types.
 
-**The Solution:** This research presents a **Universal Creative Engine**—a reusable, content-agnostic library designed to power *any* creative workflow, from video scripts and ads to Reddit posts and emails.
+This research presents a **Universal Creative Engine**—a reusable, content-agnostic library designed to overcome these limitations. By implementing a **Divergence-Convergence pipeline** that structurally separates "ideation" from "execution," the system addresses the core challenge of developing a unified engine capable of powering diverse creative workflows, from video scripts to social media content.
 
-**The Goal:** This system addresses the core challenge of developing a unified, scalable engine capable of powering diverse content generation tasks.
-
-To achieve this, I implemented a **Divergence-Convergence pipeline** that separates "brainstorming" from "drafting." This document outlines the theoretical foundations, the architecture, and the quantitative results demonstrating that this engine is **measurably more creative** than our few-shot baseline.
+This document outlines the theoretical foundations, system architecture, and quantitative results, demonstrating that this approach yields **measurably higher creativity** compared to standard few-shot baselines.
 
 ## 2. Methods
 
