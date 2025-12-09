@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "model": "gpt-4o-mini",
+    "style": "VARUN",
+    "timestamp": 1765133870.020024,
+    "baseline_approach": "few_shot_learning",
+    "creative_approach": "divergence_convergence_pipeline",
+    "baseline_count": 5,
+    "creative_count": 5
+  },
+  "results": {
+    "baseline": [
+      {
+        "product_name": "Epiminds",
+        "url": "https://www.epiminds.com/",
+        "creativity_score": 2.089375,
+        "creativity_std": 0.1927248223318863
+      },
+      {
+        "product_name": "Peec AI",
+        "url": "https://peec.ai/",
+        "creativity_score": 2.0,
+        "creativity_std": 0.0
+      },
+      {
+        "product_name": "cubic",
+        "url": "https://www.cubic.dev/",
+        "creativity_score": 2.354375,
+        "creativity_std": 0.23326487090858747
+      },
+      {
+        "product_name": "Eikona",
+        "url": "https://www.eikona.io/",
+        "creativity_score": 2.0,
+        "creativity_std": 0.0
+      },
+      {
+        "product_name": "Mistral AI",
+        "url": "https://mistral.ai/",
+        "creativity_score": 2.21,
+        "creativity_std": 0.16465873800075106
+      }
+    ],
+    "creative": [
+      {
+        "product_name": "Epiminds",
+        "url": "https://www.epiminds.com/",
+        "concept_title": "A Day Without Automation",
+        "quality_score": 0.78,
+        "creativity_score": 2.008125,
+        "creativity_std": 0.10606601717798207
+      },
+      {
+        "product_name": "Peec AI",
+        "url": "https://peec.ai/",
+        "concept_title": "The AI Search Orchestra",
+        "quality_score": 0.85,
+        "creativity_score": 2.631875,
+        "creativity_std": 0.17707443955257107
+      },
+      {
+        "product_name": "cubic",
+        "url": "https://www.cubic.dev/",
+        "concept_title": "The Code Whisperer",
+        "quality_score": 0.78,
+        "creativity_score": 2.69,
+        "creativity_std": 0.2023257627829791
+      },
+      {
+        "product_name": "Eikona",
+        "url": "https://www.eikona.io/",
+        "concept_title": "The Marketing Maestro Battle",
+        "quality_score": 0.78,
+        "creativity_score": 2.189375,
+        "creativity_std": 0.3240370349203931
+      },
+      {
+        "product_name": "Mistral AI",
+        "url": "https://mistral.ai/",
+        "concept_title": "The AI Guardian Angel",
+        "quality_score": 0.75,
+        "creativity_score": 2.64125,
+        "creativity_std": 0.21758413807733593
+      }
+    ]
+  },
+  "analysis": {
+    "baseline_average_creativity": 2.1307500000000004,
+    "baseline_std": 0.11812968624824496,
+    "creative_average_creativity": 2.432125,
+    "creative_std": 0.20541747850225228,
+    "improvement_percentage": 14.144080722750191,
+    "baseline_scores": [
+      {
+        "product": "Epiminds",
+        "url": "https://www.epiminds.com/",
+        "overall_mean": 2.089375,
+        "overall_std": 0.1927248223318863,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.3125,
+            "std": 0.5175491695067657
+          },
+          "platform_fit": {
+            "mean": 2.1875,
+            "std": 0.4629100498862757
+          }
+        }
+      },
+      {
+        "product": "Peec AI",
+        "url": "https://peec.ai/",
+        "overall_mean": 2.0,
+        "overall_std": 0.0,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.5,
+            "std": 0.0
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        }
+      },
+      {
+        "product": "cubic",
+        "url": "https://www.cubic.dev/",
+        "overall_mean": 2.354375,
+        "overall_std": 0.23326487090858747,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.375,
+            "std": 0.5175491695067657
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.8125,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.9375,
+            "std": 0.3535533905932738
+          },
+          "platform_fit": {
+            "mean": 2.5,
+            "std": 0.3535533905932738
+          }
+        }
+      },
+      {
+        "product": "Eikona",
+        "url": "https://www.eikona.io/",
+        "overall_mean": 2.0,
+        "overall_std": 0.0,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.5625,
+            "std": 0.4629100498862757
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        }
+      },
+      {
+        "product": "Mistral AI",
+        "url": "https://mistral.ai/",
+        "overall_mean": 2.21,
+        "overall_std": 0.16465873800075106,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0625,
+            "std": 0.3535533905932738
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.8125,
+            "std": 0.5175491695067657
+          },
+          "brand_integration": {
+            "mean": 2.625,
+            "std": 0.5345224838248488
+          },
+          "platform_fit": {
+            "mean": 2.4375,
+            "std": 0.5175491695067657
+          }
+        }
+      }
+    ],
+    "creative_scores": [
+      {
+        "product": "Epiminds",
+        "url": "https://www.epiminds.com/",
+        "concept_title": "A Day Without Automation",
+        "quality_score": 0.78,
+        "overall_mean": 2.008125,
+        "overall_std": 0.10606601717798207,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.4375,
+            "std": 0.4629100498862757
+          },
+          "platform_fit": {
+            "mean": 2.0625,
+            "std": 0.3535533905932738
+          }
+        }
+      },
+      {
+        "product": "Peec AI",
+        "url": "https://peec.ai/",
+        "concept_title": "The AI Search Orchestra",
+        "quality_score": 0.85,
+        "overall_mean": 2.631875,
+        "overall_std": 0.17707443955257107,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.875,
+            "std": 0.4629100498862757
+          },
+          "visual_creativity": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.125,
+            "std": 0.4629100498862757
+          },
+          "entertainment_value": {
+            "mean": 2.875,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.6875,
+            "std": 0.5345224838248488
+          },
+          "platform_fit": {
+            "mean": 2.875,
+            "std": 0.4629100498862757
+          }
+        }
+      },
+      {
+        "product": "cubic",
+        "url": "https://www.cubic.dev/",
+        "concept_title": "The Code Whisperer",
+        "quality_score": 0.78,
+        "overall_mean": 2.69,
+        "overall_std": 0.2023257627829791,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.75,
+            "std": 0.5345224838248488
+          },
+          "visual_creativity": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.375,
+            "std": 0.4629100498862757
+          },
+          "entertainment_value": {
+            "mean": 2.9375,
+            "std": 0.3535533905932738
+          },
+          "brand_integration": {
+            "mean": 2.5625,
+            "std": 0.5175491695067657
+          },
+          "platform_fit": {
+            "mean": 3.0,
+            "std": 0.0
+          }
+        }
+      },
+      {
+        "product": "Eikona",
+        "url": "https://www.eikona.io/",
+        "concept_title": "The Marketing Maestro Battle",
+        "quality_score": 0.78,
+        "overall_mean": 2.189375,
+        "overall_std": 0.3240370349203931,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.1875,
+            "std": 0.4629100498862757
+          },
+          "visual_creativity": {
+            "mean": 2.375,
+            "std": 0.5345224838248488
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.875,
+            "std": 0.4629100498862757
+          },
+          "platform_fit": {
+            "mean": 2.375,
+            "std": 0.5345224838248488
+          }
+        }
+      },
+      {
+        "product": "Mistral AI",
+        "url": "https://mistral.ai/",
+        "concept_title": "The AI Guardian Angel",
+        "quality_score": 0.75,
+        "overall_mean": 2.64125,
+        "overall_std": 0.21758413807733593,
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.8125,
+            "std": 0.5175491695067657
+          },
+          "visual_creativity": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.875,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.6875,
+            "std": 0.5345224838248488
+          },
+          "platform_fit": {
+            "mean": 3.0,
+            "std": 0.0
+          }
+        }
+      }
+    ],
+    "per_product_comparison": [
+      {
+        "product": "Epiminds",
+        "baseline_score": 2.089375,
+        "creative_score": 2.008125,
+        "improvement": -3.8887227041579333
+      },
+      {
+        "product": "Peec AI",
+        "baseline_score": 2.0,
+        "creative_score": 2.631875,
+        "improvement": 31.59375
+      },
+      {
+        "product": "cubic",
+        "baseline_score": 2.354375,
+        "creative_score": 2.69,
+        "improvement": 14.255375630475173
+      },
+      {
+        "product": "Eikona",
+        "baseline_score": 2.0,
+        "creative_score": 2.189375,
+        "improvement": 9.468750000000004
+      },
+      {
+        "product": "Mistral AI",
+        "baseline_score": 2.21,
+        "creative_score": 2.64125,
+        "improvement": 19.51357466063348
+      }
+    ]
+  }
+}

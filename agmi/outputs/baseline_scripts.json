@@ -1,0 +1,3352 @@
+[
+  {
+    "url": "https://www.epiminds.com/",
+    "product_name": "Epiminds",
+    "product_description": "Epiminds is an advanced multi-agent AI system designed to optimize marketing workflows by coordinating over 20 autonomous agents across various marketing disciplines.",
+    "pain_point": "It solves the challenge of inefficient marketing processes by automating analysis and insights, allowing teams to focus on strategic decisions and improving overall campaign effectiveness.",
+    "approach": "baseline_few_shot",
+    "style": "VARUN",
+    "script_parts": [
+      "Visual: Varun is slumped over a desk, surrounded by a chaotic mess of sticky notes, empty coffee cups, and an old laptop. The room is dimly lit with a blue monitor glow. \n---\nScript: *Varun looks into the camera, deadpan.* \"Bro, welcome to the marketing jungle where insights go to die. I'm drowning in data, and my team's looking at me like I'm a lost puppy. Help!\"",
+      "Visual: Varun leans back in his chair, dramatically throwing his hands up while scrolling through confusing analytics on his laptop. \n---\nScript: \"Look at this, bro! This report is so cooked, even my parents would disown me. My team is spending more time fighting through spreadsheets than actually making decisions!\"",
+      "Visual: Varun suddenly sits up straight, eyes wide with realization. He starts typing frantically on his laptop. \n---\nScript: \"Wait a sec… I just heard about this thing called Epiminds. It's like having a marketing team that never sleeps! 20 AI agents just vibing, optimizing campaigns while I chill?\"",
+      "Visual: Varun gets up from the desk, now standing confidently with a determined expression, looking straight at the camera. \n---\nScript: \"Bro, if you wanna escape the chaos and actually focus on the good stuff, check out Epiminds. Let's level up our marketing game together!\""
+    ],
+    "timestamp": 1765132314.7272189,
+    "creativity_assessment": {
+      "temperature_block": {
+        "overall": {
+          "mean": 2.07875,
+          "std": 0.14603693270637297
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "platform_fit": {
+            "mean": 2.125,
+            "std": 0.3535533905932738
+          }
+        },
+        "by_temperature": [
+          {
+            "temperature": 0.1,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario of marketing chaos, but the phrase 'marketing jungle' is somewhat cliché."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they lack more creative transitions or unique visual elements."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has a familiar structure of problem-solution but introduces a unique product in a relatable context."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has humorous elements and relatable frustrations, making it mildly entertaining but not highly engaging."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The product is introduced as a solution to the problem, but the integration could be more seamless and creative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a casual tone suitable for TikTok, but it doesn't fully embrace TikTok trends or fast-paced editing styles."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with relatable humor and a clear narrative, but it lacks strong originality and dynamic visuals."
+              }
+            }
+          },
+          {
+            "temperature": 0.2,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario of chaos in marketing, but the phrase 'marketing jungle' is somewhat cliché."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals depict a chaotic workspace effectively, but the handheld camera and static scenes lack dynamic transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative introduces a common pain point in marketing but does so with a humorous twist, making it somewhat fresh."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has humorous elements and relatable frustrations, but it doesn't reach a high level of engagement or surprise."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The product is introduced as a solution to the chaos, but the integration feels a bit forced rather than seamlessly embedded."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a casual tone and relatable content, but it lacks some TikTok-native pacing and trend awareness."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with relatable humor and a clear message, but it doesn't fully leverage the potential of TikTok's dynamic style."
+              }
+            }
+          },
+          {
+            "temperature": 0.3,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable character in a chaotic marketing environment, but the phrase 'marketing jungle' is somewhat cliché."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a dynamic feel, but the visuals are mostly static and conventional without unique transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The script presents a relatable struggle with a twist of introducing AI as a solution, but the overall narrative arc is familiar."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's deadpan delivery and humorous lines provide some entertainment, but it lacks high emotional engagement or humor."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Epiminds is introduced as a solution to the problem, but the integration feels somewhat functional rather than seamless."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a casual tone suitable for TikTok, but it doesn't fully embrace TikTok-native trends or fast pacing."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with relatable humor and a clear message, but it lacks distinctiveness and high entertainment value."
+              }
+            }
+          },
+          {
+            "temperature": 0.4,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario of chaos in marketing, but the phrase 'marketing jungle' is somewhat cliché."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a dynamic feel, but the visuals are somewhat standard and lack unique transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The storyline of struggling with data is common, but the humorous approach and the introduction of AI as a solution add some freshness."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has humorous elements and relatable frustrations, making it engaging, but it doesn't reach high levels of entertainment."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The product is introduced as a solution to the problem, but the integration feels somewhat functional rather than creatively embedded."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a casual tone suitable for TikTok, but it doesn't fully embrace the platform's fast-paced, meme-driven style."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with relatable humor and a clear narrative, but it lacks strong originality and dynamic visuals."
+              }
+            }
+          },
+          {
+            "temperature": 0.5,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable character in a chaotic marketing scenario, which is somewhat engaging but not highly original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The use of handheld camera and dynamic actions adds some visual interest, but lacks innovative transitions or unique visual ideas."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common pain point in marketing but introduces Epiminds as a solution in a relatable way, though not particularly unique."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script includes humor and relatable frustration, making it moderately entertaining, but it doesn't have standout comedic moments."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Epiminds is integrated into the narrative as a solution, but the integration feels somewhat functional rather than seamlessly creative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a casual tone and relatable content, fitting TikTok's style, but lacks a strong alignment with current trends or meme formats."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative and fits the platform, but it doesn't stand out significantly in originality or entertainment value."
+              }
+            }
+          },
+          {
+            "temperature": 0.6,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable character in a chaotic situation, which is somewhat interesting but follows a familiar setup of marketing struggles."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals include some dynamic elements like handheld camera work and character expressions, but lack more inventive transitions or scene variety."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common marketing challenge with a twist of introducing an AI solution, but the overall story structure feels familiar."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has humorous moments and relatable frustrations, but doesn't reach a high level of engagement or emotional punch."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The mention of Epiminds is integrated into the narrative, but feels somewhat conventional and could be more creatively embedded."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted to TikTok with a casual tone and pacing, but lacks strong alignment with current TikTok trends or meme formats."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative, featuring relatable elements and humor, but does not push boundaries or offer a highly original concept."
+              }
+            }
+          },
+          {
+            "temperature": 0.7,
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The hook features a relatable, humorous scenario of a marketing professional overwhelmed by chaos, effectively grabbing attention with a strong comedic tone."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals convey a chaotic marketing environment well, but the handheld camera style and transitions remain fairly basic and lack dynamic movement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The script presents a familiar narrative of struggle in marketing, but introduces a fresh solution in the form of Epiminds, adding a slight twist."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script uses humor and relatable frustrations effectively, making it entertaining and engaging for the target audience."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Epiminds is presented as a solution to Varun's problems, but the integration could be more seamless and less reliant on exposition."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script has a casual tone and some relatable elements, it still feels somewhat structured compared to more spontaneous TikTok content."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "The ad is engaging and entertaining, with a strong hook and emotional appeal, though it could benefit from more dynamic visuals and deeper brand integration."
+              }
+            }
+          },
+          {
+            "temperature": 0.8,
+            "overall_creativity": 2.33,
+            "judge_output": {
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The hook features a relatable and humorous scenario with Varun portraying the chaos of marketing, immediately grabbing attention with a unique and funny take."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are engaging, depicting Varun in a relatable and dynamic setting, though they could benefit from more varied camera movements or transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The storyline introduces a common challenge in marketing with a twist of humor, but the overall concept of a tech solution is somewhat familiar."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script has strong entertainment value with humor and relatable content, making it engaging and likely to resonate with the target audience."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The integration of Epiminds as a solution feels natural and relevant to Varun's struggles, though it could be more creatively woven into the narrative."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script fits well within TikTok's style, utilizing a casual tone and relatable humor that aligns with UGC trends prevalent on the platform."
+              },
+              "overall_creativity": {
+                "score": 2.33,
+                "reason": "The script balances humor, relatability, and a clear message about Epiminds, making it a strong contender for TikTok, but it leaves room for more visual dynamism and narrative originality."
+              }
+            }
+          }
+        ]
+      },
+      "persona_block": {
+        "overall": {
+          "mean": 2.1,
+          "std": 0.1927248223318863
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.625,
+            "std": 0.5175491695067657
+          },
+          "platform_fit": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          }
+        },
+        "by_persona": [
+          {
+            "persona": "Senior Creative Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Senior Creative Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "While the chaotic desk scene and Varun's deadpan delivery are relatable, the concept of a stressed marketer in a messy environment is somewhat predictable and lacks a strong pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a sense of immediacy, but the visuals are largely static and conventional. There’s potential for more dynamic transitions or creative visual storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative of a marketer overwhelmed by data is familiar, though Varun's humorous take adds a slight twist. However, it doesn't break new ground or offer a truly innovative perspective."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's comedic approach and relatable frustrations provide some entertainment, but the humor feels a bit forced and could be more engaging with stronger comedic beats."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The introduction of Epiminds as a solution is clear, but the integration feels somewhat functional rather than creatively woven into the narrative. It could enhance the story more effectively."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok-like elements, particularly in its informal tone, but it doesn't fully embrace the platform's trend-driven, fast-paced style. It feels more like a traditional ad than a native TikTok experience."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has a solid foundation with relatable themes and humor, but it ultimately plays it safe and lacks the originality and dynamism needed to stand out in the crowded TikTok landscape."
+              }
+            }
+          },
+          {
+            "persona": "TikTok Native UGC Creator",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "TikTok Native UGC Creator",
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The opening scene with Varun slumped over in chaos is super relatable for anyone in marketing. The deadpan delivery and 'marketing jungle' line instantly grabs attention and sets a humorous tone."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals could be more dynamic. While the chaotic setup is relatable, adding some quick cuts or playful transitions could elevate the energy."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative of struggling with marketing data is common, but Varun's humorous take and the introduction of Epiminds as a solution adds a fresh twist. Still, the overall concept feels somewhat familiar."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "Varun's comedic timing and relatable frustrations make this script highly entertaining. The humor resonates well with the target audience, making it engaging and fun to watch."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The introduction of Epiminds as a solution feels natural, but it could be more creatively woven into the narrative. The idea of AI agents is cool, but it needs a bit more flair to stand out."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The casual tone, relatable humor, and quick pacing align perfectly with TikTok culture. Varun's character feels authentic, making the ad likely to resonate well with viewers on the platform."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "Overall, this script has strong hooks and entertainment value, but it could benefit from more visual dynamism and a fresher narrative angle. It's definitely on the right track for TikTok, but there's room for improvement."
+              }
+            }
+          },
+          {
+            "persona": "Performance Marketer",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Performance Marketer",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt that would immediately grab attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with a handheld camera style, but they don't utilize creative transitions or rich visual elements that could enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the narrative addresses a common pain point in marketing, the storyline is somewhat predictable and doesn't introduce a unique angle that would make it stand out."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has some humorous moments, particularly in Varun's dialogue, but overall it doesn't evoke strong emotional responses or high entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Epiminds is integrated seamlessly into the narrative as a solution to the problem presented, enhancing the overall story rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, like casual dialogue, but it could be more trend-aware and utilize faster pacing to align better with TikTok's culture."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script presents a clear value proposition and integrates the product well, but it lacks the originality and emotional impact needed to truly stand out on TikTok."
+              }
+            }
+          },
+          {
+            "persona": "Meme Culture Editor",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Meme Culture Editor",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The chaotic setup with Varun slumped over his desk is relatable for many tech professionals, but the line about insights going to die feels a bit cliché. It grabs attention but doesn't fully surprise."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a dynamic feel, but the visuals remain somewhat static and typical for a desk scene. More creative transitions or visual gags could elevate the energy."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the concept of a chaotic marketing environment is relevant, the narrative follows a predictable arc. The introduction of Epiminds is interesting, but the overall story lacks a unique twist."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's deadpan delivery and relatable frustrations provide some humor, but the jokes don't land as strongly as they could. The emotional impact is moderate, leaning on familiarity rather than surprise."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The introduction of Epiminds as a solution feels seamless and enhances the narrative. It’s positioned as a game-changer, which aligns well with the pain points presented."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, like the informal tone and quick pacing, but it still feels a bit corporate. More meme-native humor or trend references could boost its organic feel."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has solid elements that resonate with the target audience, but it doesn't fully embrace the chaotic energy and absurdity that TikTok thrives on. It’s entertaining but could be sharper and more unexpected."
+              }
+            }
+          },
+          {
+            "persona": "Cinematographer / Visual Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Cinematographer / Visual Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable and chaotic atmosphere, but it doesn't have a strong visual or auditory hook that immediately grabs attention. A more dynamic entry could enhance the impact."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a sense of immediacy, but the visuals remain somewhat static and lack variety. Incorporating more dynamic camera movements or creative transitions could elevate the visual storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common pain point in marketing, but the delivery feels somewhat predictable. A more unique twist or unexpected element could make it stand out."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "While Varun's delivery has a humorous touch, the overall script could benefit from more engaging moments or visual gags to boost entertainment value."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The integration of Epiminds into the narrative is functional but feels a bit forced. A more seamless connection between Varun's struggles and the product's benefits could enhance the flow."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some elements of TikTok culture, but it lacks the energetic pacing and trend awareness typical of successful TikTok content. More playful or trendy elements could improve its fit."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script shows potential with relatable themes and humor, but it falls short in visual dynamism and originality. Enhancing the kinetic energy and creativity in both visuals and narrative could significantly improve its impact."
+              }
+            }
+          },
+          {
+            "persona": "Storytelling Coach",
+            "overall_creativity": 2.5,
+            "judge_output": {
+              "persona": "Storytelling Coach",
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The opening scene effectively sets a relatable and chaotic scenario that instantly grabs attention. Varun's deadpan delivery and the vivid imagery of a marketing disaster create a strong pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While the handheld camera adds a dynamic feel, the visuals are somewhat standard for a desk setting. More innovative camera moves or transitions could enhance the scene's dynamism."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The concept of a marketing professional overwhelmed by data is familiar, but the introduction of a multi-agent AI solution adds a fresh angle. However, the overall narrative arc follows a predictable structure."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "Varun's humor and relatable struggles create an engaging and entertaining experience. The comedic elements, particularly his exaggerated expressions, effectively draw in the audience."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The introduction of Epiminds as a solution feels seamless and enhances the narrative. It naturally follows the buildup of the problem and presents a clear resolution without feeling forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script aligns well with TikTok's fast-paced, humorous style. Varun's casual tone and relatable content resonate with the platform's audience, making it feel organic and trend-aware."
+              },
+              "overall_creativity": {
+                "score": 2.5,
+                "reason": "Overall, the script effectively combines humor and a relatable narrative with a clear brand message. While there are areas for improvement in visual creativity and narrative originality, it successfully engages the audience and integrates the product."
+              }
+            }
+          },
+          {
+            "persona": "Brand Strategist",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Brand Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario for tech professionals, using humor to depict a common pain point. However, while engaging, it doesn't break new ground in terms of originality."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic, with a handheld camera that adds a personal touch. However, they lack a strong visual narrative that could elevate the storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The story follows a familiar structure of problem-solution but introduces a tech twist. While it has some fresh elements, it doesn't feel entirely innovative."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has engaging moments and humor, particularly in Varun's expressions and dialogue. However, it could benefit from a stronger emotional or comedic punch."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The integration of Epiminds into the narrative is seamless and enhances the story. Varun's realization about the product feels natural and relevant to the context."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted for TikTok, with a casual tone and relatable content. However, it could leverage more TikTok-native trends or styles for better fit."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "Overall, the script is solid with good brand integration and a relatable premise, but it lacks the originality and dynamism needed to truly stand out in the TikTok landscape."
+              }
+            }
+          },
+          {
+            "persona": "Trend Analyst / Cultural Strategist",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Trend Analyst / Cultural Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt. The deadpan delivery is somewhat engaging, yet it doesn't fully capitalize on TikTok's potential for surprise."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with a handheld camera style that adds a personal touch. However, the scenes could benefit from more creative transitions or visual effects that resonate with TikTok's fast-paced aesthetic."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the narrative addresses a common pain point in marketing, the concept of a chaotic workspace followed by a tech solution feels somewhat predictable. There's a hint of originality in the character's comedic tone, but it doesn't break new ground."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor, particularly in Varun's exaggerated expressions and dialogue. However, it lacks a strong comedic punch or emotional depth that could elevate its entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The integration of Epiminds into the narrative is seamless and enhances the overall story. Varun's realization about the product feels organic and aligns well with the pain point being addressed."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The pacing and tone are somewhat aligned with TikTok culture, but the overall execution feels slightly too scripted for the platform. A more spontaneous or meme-inspired approach could enhance its organic feel."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script demonstrates a solid understanding of the target audience's pain points and integrates the product effectively. However, it falls short in originality and entertainment value, making it feel somewhat generic for TikTok's vibrant ecosystem."
+              }
+            }
+          }
+        ]
+      },
+      "aggregate": {
+        "overall": {
+          "mean": 2.089375,
+          "std": 0.1927248223318863
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.3125,
+            "std": 0.5175491695067657
+          },
+          "platform_fit": {
+            "mean": 2.1875,
+            "std": 0.4629100498862757
+          }
+        }
+      },
+      "raw_judge_outputs": null
+    }
+  },
+  {
+    "url": "https://peec.ai/",
+    "product_name": "Peec AI",
+    "product_description": "Peec AI helps marketing teams analyze brand performance across AI search platforms to optimize visibility and engagement.",
+    "pain_point": "It addresses the challenge of tracking metrics like brand mentions, impressions, and sentiment in the evolving landscape of AI search.",
+    "approach": "baseline_few_shot",
+    "style": "VARUN",
+    "script_parts": [
+      "Visual: Varun is lounging on his beige couch in a bright apartment, scrolling through his phone with a deadpan expression. The room is filled with tech gadgets, and the light is warm and inviting. \n---\nScript: *Varun:* \"Bro, the numbers just ain't adding up. My brand's getting cooked out there, and I can't even tell if anyone's vibing with us.\"\n*Roommate (VO):* \"What do you mean?\"\n*Varun:* \"Like, I'm trying to track mentions and impressions, but it feels like I’m just throwing spaghetti at the wall.\"\n*Roommate (VO):* \"Welcome to corporate life, bro.\"",
+      "Visual: The camera zooms in on Varun's frustrated face as he flips through an analytics dashboard full of confusing graphs. Mood lighting sets an intense atmosphere. \n---\nScript: *Varun:* \"Look at this mess! My brand's sentiment is all over the place, and I have no idea why!\"\n*Roommate (VO):* \"Is it your marketing, or are you just bad at metrics?\" \n*Varun:* \"Bro, it’s hard to tell! This AI search landscape is a total maze. I feel like I'm trapped in corporate purgatory!\"",
+      "Visual: Varun sits up straight, suddenly alert as he gets an idea. The lighting changes to bright to signify a breakthrough. \n---\nScript: *Varun:* \"Wait, what if I could get a sidekick? Something that helps me manage all this chaos?\" \n*Roommate (VO):* \"Like a personal assistant?\" \n*Varun:* \"No, bro, I'm talking about Peec AI! It analyzes brand performance across those wild AI platforms and gives me real-time metrics!\" \n*Roommate (VO):* \"Sounds like a game changer!\"",
+      "Visual: Varun looks confidently into the camera, giving a thumbs up while the screen displays the Peec AI logo with flashy graphics. The room is bright and lively. \n---\nScript: *Varun:* \"So if you want to stop feeling lost in the metrics jungle, just lock in with Peec AI. Optimize your brand visibility like a pro, and don’t get cooked like I was!\" \n*Roommate (VO):* \"Or just keep throwing spaghetti...\" \n*Varun:* \"Nah, fam. Let’s be the pasta chefs of marketing. Check out Peec AI now!\""
+    ],
+    "timestamp": 1765132331.051191,
+    "creativity_assessment": {
+      "temperature_block": {
+        "overall": {
+          "mean": 2.0,
+          "std": 0.0
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        },
+        "by_temperature": [
+          {
+            "temperature": 0.1,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt or surprising element."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately engaging with some camera movement and scene changes, but they don't utilize highly dynamic TikTok-native techniques."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common struggle in a relatable way, but the storyline is somewhat predictable and follows familiar ad tropes."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, particularly in the dialogue, but it doesn't reach a high level of engagement or emotional impact."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The product is integrated into the narrative in a functional way, but it feels somewhat forced and could be more seamlessly embedded."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted to TikTok, with some UGC elements, but it doesn't fully embrace the fast-paced, trend-driven nature of the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative, with relatable elements and a clear message, but it lacks strong originality and high entertainment value."
+              }
+            }
+          },
+          {
+            "temperature": 0.2,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt or surprising element."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they don't utilize TikTok-native techniques like quick cuts or unique transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The storyline presents a common struggle in a tech context, with some interesting dialogue, but it doesn't offer a particularly fresh angle."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script includes some humor and relatable moments, but it doesn't reach a high level of engagement or emotional impact."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Peec AI is integrated into the narrative in a functional way, but it feels somewhat conventional and not particularly clever."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a reasonable TikTok feel with a casual tone, but it lacks the fast pacing and trend awareness typical of highly engaging TikTok content."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "While the script has some engaging elements and fits the product context, it doesn't fully leverage the creativity and dynamism expected in a TikTok ad."
+              }
+            }
+          },
+          {
+            "temperature": 0.3,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt or surprising element."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they don't incorporate highly creative transitions or unique visual styles."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common struggle in a corporate setting, with some interesting dialogue, but it doesn't offer a particularly fresh angle."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, particularly in the dialogue, but it doesn't reach a high level of engagement or emotional impact."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Peec AI is introduced as a solution in a functional way, but the integration feels somewhat standard and not particularly clever."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted to TikTok with a casual tone, but it could benefit from faster pacing and stronger alignment with TikTok trends."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "While the script is moderately creative and relatable for the target audience, it lacks strong originality and engagement to stand out on TikTok."
+              }
+            }
+          },
+          {
+            "temperature": 0.4,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario but lacks a strong pattern interrupt, making it somewhat interesting but not highly original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The scenes use handheld camera work and some mood lighting, but overall, the visuals are moderately dynamic without standout creative transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common workplace struggle with a slight twist, but it doesn't introduce a particularly unique angle or concept."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The dialogue includes some humor and relatable moments, making it mildly entertaining, but it doesn't reach a high level of emotional engagement."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The product is integrated into the narrative in a functional way, but the connection feels somewhat forced and could be more seamless."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted to TikTok with a casual tone, but it doesn't fully embrace TikTok-native styles or trends."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with some engaging elements, but it lacks strong originality and dynamic execution typical of high-performing TikTok ads."
+              }
+            }
+          },
+          {
+            "temperature": 0.5,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario for tech professionals but lacks a strong surprise element or pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals include some interesting elements like mood lighting and handheld camera work, but they remain somewhat static and predictable."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has some fresh angles, like the metaphor of being 'trapped in corporate purgatory,' but overall it follows familiar tropes."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, particularly in the dialogue, but it doesn't reach a high level of engagement or emotional punch."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The product is integrated into the narrative in a functional way, but it could be more creatively embedded within the story."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While it has some elements suitable for TikTok, such as casual dialogue, it doesn't fully embrace the fast-paced, trend-driven nature of the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with some engaging elements, but it lacks the originality and dynamism needed for a standout TikTok ad."
+              }
+            }
+          },
+          {
+            "temperature": 0.6,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario but lacks a strong pattern interrupt; Varun's deadpan expression and dialogue are somewhat engaging but not highly original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals include some interesting elements, like the zoom-in on Varun's face, but overall the camera movement is basic and doesn't leverage more dynamic TikTok-native techniques."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a familiar setup of frustration in corporate life but introduces a unique solution with Peec AI; however, it doesn't contain a strong twist or unique angle."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, particularly the dialogue between Varun and his roommate, but it doesn't reach a high level of entertainment or emotional impact."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Peec AI is introduced as a solution to Varun's problem, but the integration feels somewhat formulaic and could be more creatively woven into the narrative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script shows some understanding of TikTok's casual tone and pacing, but it doesn't fully embrace the platform's fast-paced, meme-driven style."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script demonstrates moderate creativity across various criteria, with engaging elements, but lacks the strong originality and dynamic execution typically expected for TikTok content."
+              }
+            }
+          },
+          {
+            "temperature": 0.7,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario but lacks a strong pattern interruption or surprising element."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The use of handheld camera and lighting changes adds some dynamism, but the visuals remain somewhat conventional."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The storyline includes relatable frustrations and a unique solution, though it follows a familiar structure."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The dialogue has humorous elements, but overall, it does not reach a high level of engagement or emotional impact."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Peec AI is integrated into the narrative as a solution, but the transition feels somewhat standard."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some elements of TikTok culture but does not fully leverage fast cuts or trends characteristic of the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with relatable humor and a clear message, but it lacks the originality and dynamism needed for a standout TikTok ad."
+              }
+            }
+          },
+          {
+            "temperature": 0.8,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a surprising element to immediately grab attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are decent with some zoom-ins and mood lighting but are still somewhat static and generic for TikTok's dynamic style."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The storyline has a relatable angle, but it follows a somewhat familiar format of a problem-solution setup without significant twists."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "While there are humorous moments and relatable dialogue, the overall entertainment value is moderate rather than highly engaging."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "The product is introduced in a relevant context, but the integration could be more seamless and creative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script shows some awareness of TikTok's style but doesn't fully embrace the fast-paced, trend-driven nature of the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script demonstrates moderate creativity across all criteria, appealing to the target audience but lacking standout elements that would make it memorable."
+              }
+            }
+          }
+        ]
+      },
+      "persona_block": {
+        "overall": {
+          "mean": 2.0,
+          "std": 0.0
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        },
+        "by_persona": [
+          {
+            "persona": "Senior Creative Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Senior Creative Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene establishes a relatable scenario but lacks a strong pattern interrupt. While Varun's deadpan expression is somewhat engaging, it doesn't fully capture the viewer's attention in a surprising way."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals remain fairly static and conventional. There are opportunities for more dynamic shots or transitions that could enhance the storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The concept of struggling with metrics in a humorous way is somewhat fresh, but the overall narrative arc feels predictable. The 'lightbulb moment' leading to the solution is a common trope that lacks innovation."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The dialogue has moments of humor, particularly with the roommate's quips, but overall, the script doesn't deliver strong emotional or comedic highs. It engages but doesn't fully entertain."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Peec AI is integrated seamlessly into the narrative as a solution to Varun's problem. The transition from frustration to discovery feels natural and enhances the story rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script has some TikTok elements, such as casual dialogue and relatable scenarios, it doesn't fully embrace the platform's fast-paced, trend-driven nature. It feels more like a traditional ad than a native TikTok experience."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has a solid foundation with relatable characters and a clear message, but it ultimately plays it safe. It lacks the boldness and originality needed to stand out in a crowded TikTok landscape."
+              }
+            }
+          },
+          {
+            "persona": "TikTok Native UGC Creator",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "TikTok Native UGC Creator",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening sets a relatable scene with Varun's deadpan expression and a common pain point, but it lacks a strong pattern interrupt to really grab attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a casual vibe, but the visuals are somewhat static and could benefit from more dynamic transitions or engaging elements."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The story has a relatable premise about struggling with metrics, but the concept of needing an AI tool feels a bit predictable and not particularly fresh."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "There are some funny moments, especially with the roommate's comments, but overall it could use more humor and emotional highs to keep viewers engaged."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Peec AI is introduced naturally as a solution to Varun's problem, enhancing the narrative without feeling forced, which is key for UGC."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While it has some TikTok elements, the pacing and overall vibe feel slightly more corporate than what typically resonates on the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has solid elements but ultimately feels a bit too polished and predictable for TikTok. It needs more punch and authenticity to truly resonate with the audience."
+              }
+            }
+          },
+          {
+            "persona": "Performance Marketer",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Performance Marketer",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt or surprising element to immediately grab attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they don't utilize TikTok's potential for more engaging transitions or effects."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative follows a somewhat predictable structure of problem-solution but includes a relatable twist with the roommate's commentary, making it partially fresh."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "There are engaging moments, particularly the banter between Varun and his roommate, but it lacks a strong emotional or comedic punch that would elevate its entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Peec AI is seamlessly integrated into the narrative as a solution to Varun's problem, enhancing the story rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script is reasonably adapted for TikTok, it doesn't fully embrace the platform's fast-paced, trend-driven nature, making it feel slightly less organic."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has a solid foundation with clear messaging and brand integration, but it lacks the originality and emotional engagement needed to stand out in a crowded TikTok feed."
+              }
+            }
+          },
+          {
+            "persona": "Meme Culture Editor",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Meme Culture Editor",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook sets up a relatable scenario for tech professionals, but the deadpan delivery and 'spaghetti at the wall' metaphor feel a bit overdone. It grabs attention but doesn't quite hit that meme-worthy surprise factor."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera work adds a casual vibe, but the visuals are somewhat static and lack dynamic transitions. The mood lighting change is a nice touch, but overall, it could use more TikTok-native flair."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative about struggling with metrics is relevant, but the 'corporate purgatory' and 'personal assistant' tropes are familiar. It has a decent angle with the AI twist, but it doesn't fully break new ground."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "There are some humorous moments, especially with the roommate's quips, but the pacing feels a bit slow for TikTok. The punchlines land moderately well, but they lack that sharp, chaotic energy that makes content shareable."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Peec AI is seamlessly integrated into the narrative, enhancing the storyline rather than feeling forced. The transition from frustration to solution is smooth and relatable for the target audience."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While it has some TikTok elements, the overall execution feels a bit too corporate for the platform. It could benefit from more meme-native humor and trend awareness to really resonate with the audience."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has a solid foundation with relatable themes and good brand integration, but it lacks the chaotic energy, sharp humor, and unexpected punchlines that make TikTok content truly viral. It feels like it’s playing it safe rather than fully embracing meme culture."
+              }
+            }
+          },
+          {
+            "persona": "Cinematographer / Visual Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Cinematographer / Visual Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene is somewhat relatable but lacks a strong visual hook or surprising element to immediately grab attention. The deadpan expression is interesting, but it doesn't create a compelling pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While there are some dynamic elements like the zoom-in on Varun's face, the overall visuals remain somewhat static and conventional. The handheld camera adds a personal touch, but more creative camera movements or transitions could enhance the visual storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common struggle in the tech world, which feels relatable but not particularly fresh. The concept of using AI to solve brand tracking issues is relevant, but the execution lacks a distinctive twist that would make it memorable."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The dialogue has some humorous moments, especially with the roommate's comments, but the overall pacing feels a bit flat. The emotional engagement could be heightened with more kinetic energy in the delivery and visuals."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The integration of Peec AI into the narrative is clever and feels seamless. Varun's realization about the product flows naturally from the problem, enhancing the overall story without feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some elements that fit TikTok culture, such as humor and relatable dialogue, but it still feels somewhat like a traditional ad. More trend-aware elements or rapid pacing could improve its organic feel on the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script presents a relatable narrative with decent brand integration, but it lacks the dynamic visual energy and originality that would make it stand out on TikTok. Enhancing the visual creativity and pacing could elevate the overall impact."
+              }
+            }
+          },
+          {
+            "persona": "Storytelling Coach",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Storytelling Coach",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene introduces a relatable character in a familiar setting, but the deadpan delivery and metaphor about 'throwing spaghetti at the wall' could be more surprising to truly hook the audience."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are somewhat static and conventional. More dynamic transitions or creative camera angles could enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the premise of struggling with metrics in a tech environment is relevant, it leans on familiar tropes without introducing a distinctive twist that sets it apart from other tech ads."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The dialogue has humorous moments, particularly the 'spaghetti' metaphor, but the emotional movement feels flat. The characters could exhibit more dynamic interactions to elevate the entertainment factor."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Peec AI is seamlessly integrated into the narrative as a solution to the character's problem, enhancing the story rather than feeling like a forced advertisement."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, like conversational dialogue and relatable scenarios, but it could benefit from more trend-aware references or a faster pacing to fully align with TikTok culture."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has a solid foundation with relatable characters and a clear message, but it lacks the originality and emotional depth needed to truly stand out in the crowded TikTok landscape."
+              }
+            }
+          },
+          {
+            "persona": "Brand Strategist",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Brand Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable scenario for tech professionals, but the deadpan expression and casual dialogue don't create a strong enough pattern interrupt to truly grab attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While the handheld camera adds a personal touch, the visuals remain somewhat static and conventional, lacking the dynamic flair that would make it stand out on TikTok."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common challenge faced by marketers, but the concept of using a 'sidekick' for metrics feels somewhat predictable and lacks a fresh angle."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, particularly with the roommate's comments, but it doesn't reach a high level of engagement or emotional resonance."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Peec AI is seamlessly integrated into the narrative as a solution to the protagonist's problem, enhancing the story rather than feeling forced or out of place."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok-like elements, such as casual dialogue and relatable scenarios, but it could better align with current trends and pacing typical of the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "Overall, the script is functional and addresses the target audience's pain points, but it lacks the originality and dynamism needed to truly differentiate it in a crowded TikTok space."
+              }
+            }
+          },
+          {
+            "persona": "Trend Analyst / Cultural Strategist",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Trend Analyst / Cultural Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt. The deadpan delivery is somewhat engaging, yet it doesn't fully capitalize on the potential for a more surprising or dynamic opening."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While the visuals are decent with handheld camera work, they remain somewhat static and conventional. The use of lighting changes to signify mood shifts is a nice touch, but overall, the scenes could benefit from more dynamic transitions and visual flair that resonates with TikTok's energetic style."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common struggle in the tech world, which is relatable but somewhat predictable. The concept of needing a tool to navigate metrics is relevant, yet it doesn't offer a distinctive or innovative twist that would make it memorable in the crowded TikTok space."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor, especially with the roommate's quips, but it doesn't fully leverage comedic timing or emotional engagement. The dialogue is engaging enough to hold attention, but it could be punchier to enhance the overall entertainment factor."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Peec AI is seamlessly integrated into the narrative as a solution to Varun's problem. The dialogue flows naturally, and the brand's value proposition is clearly communicated without feeling forced, enhancing the overall message."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok-like elements, such as conversational dialogue and a casual setting, but it still feels a bit corporate and lacks the high-energy, trend-driven style that is characteristic of successful TikTok content. It could benefit from more meme culture references or a faster pacing."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "While the script contains relatable elements and a clear brand message, it falls short of being truly innovative or engaging for the TikTok audience. It needs to embrace a more dynamic and culturally resonant approach to better align with current trends and viewer expectations."
+              }
+            }
+          }
+        ]
+      },
+      "aggregate": {
+        "overall": {
+          "mean": 2.0,
+          "std": 0.0
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.5,
+            "std": 0.0
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        }
+      },
+      "raw_judge_outputs": null
+    }
+  },
+  {
+    "url": "https://www.cubic.dev/",
+    "product_name": "cubic",
+    "product_description": "cubic is an AI code review platform that helps teams catch bugs and merge pull requests 28% faster.",
+    "pain_point": "cubic addresses the bottleneck in code reviews, enabling teams to merge pull requests faster and improve code quality.",
+    "approach": "baseline_few_shot",
+    "style": "VARUN",
+    "script_parts": [
+      "Visual: In a bright apartment with natural light illuminating the room, Varun is slumped over his laptop, surrounded by energy drink cans. He looks utterly defeated. \n---\nScript: *Varun:* \"Bro, I swear my code reviews are like waiting for my parents to approve my love life. Just no movement.\"\n*Voiceover (Roommate):* \"Are you saying your code is single?\"\n*Varun:* \"More like permanently ‘under review’, bro.\"\n",
+      "Visual: Varun now leans back, rubbing his temples as he stares at the screen filled with feedback. \n---\nScript: *Voiceover (Roommate):* \"What’s the hold-up? Did you write a novel in your PR?\"\n*Varun:* \"Nah, just a solid 300 lines of code, but it feels like I’m trying to get a promotion at my parents’ dinner table. They’re like, ‘Too many bugs, bro.’\"\n*Voiceover (Roommate):* \"So fix it already!\"\n*Varun:* \"I can't! It’s a bottleneck, man! I’m cooked!\"\n",
+      "Visual: Varun looks at his screen, suddenly perking up as if struck by inspiration, sitting up straighter. \n---\nScript: *Varun:* \"Wait a minute... what if I bring in the big guns?\" \n*Voiceover (Roommate):* \"What? Like an AI code reviewer?\"  \n*Varun:* \"Yeah, cubic! I heard it fixes bugs and speeds up PRs like my mom fixing my dating profile.\"\n*Voiceover (Roommate):* \"Bro, does it also handle awkward family dinners?\" \n*Varun:* \"Not yet, but at least it’ll get my code married faster!\"\n",
+      "Visual: Varun now excitedly points at the screen, a bright glow illuminating his face, signaling a newfound energy and hope. \n---\nScript: *Varun:* \"Yo, cubic just found all the slop in my code! I’m locked in on merging this PR!\" \n*Voiceover (Roommate):* \"So you’re saying cubic is like the dating app for code?\" \n*Varun:* \"Exactly! Swipe right on clean code!\" \n*Voiceover (Roommate):* \"Dude, hit them up!\"  \n*Varun:* \"If only finding wifey could be this easy, bro!\" *[Winks at the camera]*\n*Voiceover (Roommate):* \"Yeah, good luck with that!\"  \n*Varun:* \"Seriously, check out cubic, fam!\" "
+    ],
+    "timestamp": 1765132349.817004,
+    "creativity_assessment": {
+      "temperature_block": {
+        "overall": {
+          "mean": 2.45875,
+          "std": 0.23326487090858747
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.625,
+            "std": 0.5175491695067657
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.875,
+            "std": 0.3535533905932738
+          },
+          "brand_integration": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "platform_fit": {
+            "mean": 2.875,
+            "std": 0.3535533905932738
+          }
+        },
+        "by_temperature": [
+          {
+            "temperature": 0.1,
+            "overall_creativity": 2.33,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook uses a relatable metaphor about code reviews and love life, which is somewhat interesting but not highly original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they lack unique transitions or highly creative shots."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes some humor and relatable scenarios, but the overall structure is familiar and not particularly unique."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is engaging and funny, with relatable dialogue that resonates well with the target audience, enhancing its entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is integrated into the narrative in a clever way, enhancing the humor and flow rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script aligns well with TikTok's casual tone and fast-paced style, utilizing humor and relatable content effectively."
+              },
+              "overall_creativity": {
+                "score": 2.33,
+                "reason": "While the script has strong entertainment value and brand integration, it lacks some originality in the hook and narrative structure."
+              }
+            }
+          },
+          {
+            "temperature": 0.2,
+            "overall_creativity": 2.5,
+            "judge_output": {
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The hook features a relatable and humorous analogy comparing code reviews to waiting for parental approval in a love life, which is both original and attention-grabbing."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The use of handheld camera work and dynamic scenes captures Varun's emotional state well, but the visuals remain somewhat generic without unique transitions or effects."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes a clever twist by incorporating personal life analogies into the tech context, but the overall structure follows a familiar problem-solution format."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is highly entertaining with relatable humor and engaging dialogue, making it enjoyable for the target audience of tech professionals."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the narrative as a solution to the problem, enhancing the humor and flow rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script aligns well with TikTok's fast-paced, humorous style, utilizing relatable scenarios and a casual tone that resonates with the platform's audience."
+              },
+              "overall_creativity": {
+                "score": 2.5,
+                "reason": "The script combines original humor and effective brand integration, but some visual elements and narrative structure could be more innovative."
+              }
+            }
+          },
+          {
+            "temperature": 0.3,
+            "overall_creativity": 2.5,
+            "judge_output": {
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The hook features a relatable and humorous analogy comparing code reviews to waiting for parental approval, which is both surprising and engaging."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a dynamic feel, but the visuals are somewhat standard for a tech ad, lacking more innovative transitions or effects."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The storyline has a humorous twist with relatable tech frustrations, but the overall concept of a solution to a common problem is somewhat familiar."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is highly entertaining with clever dialogue and relatable humor, making it engaging for the target audience."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the narrative as a solution to the problem, enhancing the humor and flow of the script."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script fits well within TikTok's casual and humorous style, utilizing relatable dialogue and quick pacing that aligns with platform trends."
+              },
+              "overall_creativity": {
+                "score": 2.5,
+                "reason": "The ad is engaging and humorous with strong brand integration, but some visual elements and narrative originality could be more innovative."
+              }
+            }
+          },
+          {
+            "temperature": 0.4,
+            "overall_creativity": 2.67,
+            "judge_output": {
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The opening scene features a relatable and humorous analogy comparing code reviews to waiting for parental approval, which is original and attention-grabbing."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a dynamic feel, but the visuals themselves are somewhat standard and lack unique transitions or creative shots."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the storyline is relatable for tech professionals, it follows a familiar structure of problem-solution but includes some clever humor and twists."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is highly entertaining with witty dialogue and relatable scenarios, making it engaging and likely to resonate with the audience."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the narrative as the solution to the problem, enhancing the humor and flow rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script has a strong TikTok-native feel with fast-paced dialogue, relatable humor, and a casual tone that aligns well with platform culture."
+              },
+              "overall_creativity": {
+                "score": 2.67,
+                "reason": "Overall, the script is creative and engaging, with strong hooks and entertainment value, though it could benefit from more visual dynamism."
+              }
+            }
+          },
+          {
+            "temperature": 0.5,
+            "overall_creativity": 2.67,
+            "judge_output": {
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The hook is highly original, using a relatable and humorous analogy that immediately grabs attention and creates a pattern interrupt with Varun's defeated demeanor."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are dynamic with handheld camera work, but they rely on somewhat standard settings. There could be more creative transitions or visual elements to enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative features a relatable scenario for tech professionals and includes a clever twist on the code review process, but it does follow some familiar comedic tropes."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is funny and engaging, with relatable humor that resonates with the target audience, providing strong entertainment value throughout."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the narrative, enhancing the humor and flow rather than feeling forced or out of place."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script fits well within TikTok's fast-paced, UGC style, using a casual tone and relatable humor that aligns with platform trends."
+              },
+              "overall_creativity": {
+                "score": 2.67,
+                "reason": "The script is creative and entertaining, with strong hooks and brand integration, but some areas for visual creativity and narrative originality could be improved."
+              }
+            }
+          },
+          {
+            "temperature": 0.6,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening dialogue about code reviews being like waiting for parental approval is somewhat relatable, but the humor is not particularly novel."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are dynamic with handheld camera work, but they don't incorporate highly creative transitions or unique visual ideas typical of TikTok."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The storyline includes a humorous twist comparing code reviews to dating approval, but the overall concept of frustration in tech is somewhat familiar."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, particularly with the dating comparisons, but it doesn't achieve high entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the narrative, enhancing the humor and flow of the script without feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has elements of TikTok culture, such as humor and casual dialogue, but it lacks a stronger UGC feel and fast-paced editing."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "While the script is engaging and integrates the product well, it does not stand out significantly in terms of originality or entertainment for a TikTok audience."
+              }
+            }
+          },
+          {
+            "temperature": 0.7,
+            "overall_creativity": 2.67,
+            "judge_output": {
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The hook is highly original and attention-grabbing, using a relatable metaphor about code reviews and love life that instantly commands attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals include some dynamism with handheld camera work, but there could be more creative transitions or varied scene setups to enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the script uses familiar tropes of tech frustrations, it introduces a unique angle by intertwining personal and professional life metaphors, making it partially fresh."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is highly entertaining with humorous dialogue and relatable situations, ensuring strong engagement and potential for high replay value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The product, cubic, is cleverly integrated into the narrative, enhancing the humor and flow rather than feeling forced or tacked on."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script fits well with TikTok's style, featuring a casual tone, fast pacing, and a relatable, UGC-like feel that aligns with platform culture."
+              },
+              "overall_creativity": {
+                "score": 2.67,
+                "reason": "Overall, the script is strong in originality and entertainment, though it could benefit from more visual dynamism and a fully unique narrative structure."
+              }
+            }
+          },
+          {
+            "temperature": 0.8,
+            "overall_creativity": 2.33,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook uses a relatable analogy about code reviews and personal approval, which is somewhat original but not highly surprising."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The scenes are dynamic with handheld camera work, but they lack particularly creative visual transitions or innovative shots."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative incorporates humor and relatable tech frustrations, but the overall premise is familiar within the context of tech ads."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is engaging and funny, with strong dialogue that resonates well with tech professionals, increasing its entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is integrated seamlessly into the dialogue, enhancing the humor and maintaining the flow without feeling forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script has a strong TikTok-native feel with quick cuts, casual dialogue, and relatable humor that fits well with platform trends."
+              },
+              "overall_creativity": {
+                "score": 2.33,
+                "reason": "The script is entertaining and well-integrated with the product, but it could benefit from more originality in the hook and visuals."
+              }
+            }
+          }
+        ]
+      },
+      "persona_block": {
+        "overall": {
+          "mean": 2.25,
+          "std": 0.16903085094570328
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.125,
+            "std": 0.3535533905932738
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.75,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.875,
+            "std": 0.3535533905932738
+          },
+          "platform_fit": {
+            "mean": 2.125,
+            "std": 0.3535533905932738
+          }
+        },
+        "by_persona": [
+          {
+            "persona": "Senior Creative Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Senior Creative Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "While the opening scene sets a relatable tone for tech professionals, the metaphor of code reviews being like waiting for parental approval feels somewhat familiar and lacks a strong pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are somewhat static and do not fully leverage the dynamic potential of TikTok's platform."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has a few interesting angles, particularly the humorous comparison of code reviews to personal life, but overall it follows a predictable structure and lacks a truly innovative twist."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "There are engaging moments and humor, especially with the roommate's quips, but the overall comedic impact feels moderate rather than strikingly memorable."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The integration of cubic into the narrative is clever and enhances the story, making it feel like a natural solution to the established problem."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok-like elements, but it doesn't fully embrace the fast-paced, trend-driven nature of the platform, which could enhance its organic feel."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has solid elements and some clever integration, but it ultimately plays it safe with familiar tropes and lacks the boldness and originality needed to stand out in a crowded TikTok landscape."
+              }
+            }
+          },
+          {
+            "persona": "TikTok Native UGC Creator",
+            "overall_creativity": 2.5,
+            "judge_output": {
+              "persona": "TikTok Native UGC Creator",
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The opening line is relatable and humorous, instantly grabbing attention with a clever analogy that resonates with tech professionals."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a casual vibe, but the visuals could be more dynamic or visually engaging to really pop on TikTok."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the concept of using humor to address a common pain point in coding is solid, the overall narrative feels somewhat familiar and could use a fresher twist."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The dialogue is witty and engaging, with a nice balance of humor and relatability that keeps the viewer entertained throughout."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the story, enhancing the humor and making the solution feel natural rather than forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script captures TikTok's casual tone and humor perfectly, making it feel organic and likely to resonate with the audience."
+              },
+              "overall_creativity": {
+                "score": 2.5,
+                "reason": "Overall, the script is entertaining and well-integrated with the brand, but it could benefit from more visual dynamism and a slightly more original narrative twist."
+              }
+            }
+          },
+          {
+            "persona": "Performance Marketer",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "Performance Marketer",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene is relatable for tech professionals but lacks a strong, unique hook to immediately grab attention. The humor is decent, but it doesn't fully stand out."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are somewhat static and could benefit from more dynamic movement or transitions to enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the concept of comparing code reviews to personal life is interesting, it feels somewhat cliché. There's a missed opportunity for a more innovative angle."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script includes humorous dialogue and relatable scenarios that effectively engage the audience, making it entertaining and likely to resonate with tech professionals."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the narrative as the solution to the problem, enhancing the overall story rather than feeling forced or out of place."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script aligns reasonably well with TikTok's style, but it could incorporate more trend-aware elements or faster pacing to feel more native to the platform."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "The script has solid entertainment value and good brand integration, but it falls short in originality and visual dynamism, which are crucial for maximizing engagement and conversions on TikTok."
+              }
+            }
+          },
+          {
+            "persona": "Meme Culture Editor",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "Meme Culture Editor",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene with Varun's relatable struggle is decent, but the 'waiting for parents to approve my love life' line feels a bit overused in meme culture. It grabs attention but lacks a fresh twist."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are somewhat static and don't utilize TikTok's dynamic potential. More energetic transitions could elevate the chaos."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The concept of comparing code reviews to personal life is clever, but the execution feels familiar. The 'bottleneck' metaphor is solid, yet it doesn't break new ground in storytelling."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The humor lands well, especially the punchlines about dating and code. Varun's character is relatable, and the absurdity of the comparisons keeps it engaging throughout."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is integrated cleverly into the narrative, with the punchline about 'swiping right on clean code' being a standout moment that enhances the overall message."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While it has some TikTok elements, it still feels a bit scripted and not fully organic. A more spontaneous vibe would resonate better with the platform's audience."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "Overall, the script is entertaining and integrates the product well, but it doesn't push the boundaries of creativity or meme culture enough to achieve a higher score. It’s a solid effort that could benefit from more chaotic energy and originality."
+              }
+            }
+          },
+          {
+            "persona": "Cinematographer / Visual Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Cinematographer / Visual Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable tone with Varun's struggle, but it lacks a strong visual or auditory hook that would immediately grab attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While the handheld camera adds a sense of intimacy, the visuals remain somewhat static and conventional, missing opportunities for dynamic camera moves or creative transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The concept of using humor to illustrate coding frustrations is moderately fresh, but the overall narrative feels familiar and predictable in its execution."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The dialogue has humorous moments, but the pacing could be more dynamic to enhance engagement and emotional impact throughout the scenes."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Cubic is introduced in a clever way, but the integration feels slightly forced and could benefit from a more seamless connection to the narrative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some elements of TikTok culture, but it doesn't fully embrace the platform's fast-paced, visually dynamic style that could enhance its organic feel."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script demonstrates potential with its humor and relatable content, but it ultimately falls short in visual dynamism and originality, making it feel more like a traditional ad rather than a vibrant TikTok experience."
+              }
+            }
+          },
+          {
+            "persona": "Storytelling Coach",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "Storytelling Coach",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene establishes a relatable character in a humorous situation, but the metaphor about code reviews and love life, while amusing, isn't particularly surprising or original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a sense of intimacy, but the visuals remain somewhat static and conventional for a TikTok format, lacking dynamic transitions or striking imagery."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a familiar trope of a tech worker struggling with code reviews, with some clever humor, but the overall concept feels predictable and lacks a truly unique angle."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is engaging and humorous, with witty dialogue that effectively captures the frustrations of tech professionals, making it enjoyable to watch."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "The introduction of cubic as a solution is cleverly woven into the narrative, enhancing the story rather than feeling forced, and the dating app analogy is a fun twist."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script has some TikTok elements, it doesn't fully embrace the platform's rapid pacing and trend-driven style, which could enhance its organic feel."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "The script has strong entertainment value and clever brand integration, but it falls short in originality and visual dynamism, resulting in a solid but not exceptional overall creativity."
+              }
+            }
+          },
+          {
+            "persona": "Brand Strategist",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "Brand Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene presents a relatable scenario for tech professionals, using humor to draw in the audience. However, the comparison to waiting for parental approval feels somewhat predictable."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals remain relatively static and do not fully leverage the dynamic potential of TikTok's format."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the concept of using humor to address a common pain point in tech is engaging, the narrative follows a somewhat familiar structure of problem-solution without a distinctive twist."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script effectively uses humor and relatable scenarios, making it entertaining and engaging for the target audience, particularly with the witty exchanges between Varun and his roommate."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is integrated into the narrative seamlessly, enhancing the story rather than feeling forced. The humorous comparisons to dating apps create a memorable association with the product."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script has some TikTok-like elements, it could benefit from a more energetic pacing and trend-aware visuals to better fit the platform's culture."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "The script is entertaining and integrates the product well, but it lacks some originality and dynamism in visuals and narrative structure that would make it stand out more on TikTok."
+              }
+            }
+          },
+          {
+            "persona": "Trend Analyst / Cultural Strategist",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "Trend Analyst / Cultural Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening line is relatable for tech professionals, using humor to draw a parallel between code reviews and personal life. However, it lacks a truly surprising twist that would make it a standout hook."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals remain somewhat static and conventional. More dynamic camera movements or creative transitions could enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative cleverly intertwines personal and professional struggles, but the overall concept of a tech worker facing bottlenecks in code reviews is somewhat familiar. It could benefit from a more unique angle."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is humorous and relatable, with engaging dialogue that resonates with the target audience. The comedic timing and banter between characters elevate the entertainment factor."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Cubic is seamlessly integrated into the narrative, with the product being presented as a solution to the protagonist's problem in a clever way that enhances the story rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script has some TikTok-like elements, it still feels a bit scripted and could benefit from a more spontaneous, UGC-style approach that aligns better with the platform's culture."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "The script effectively combines humor and relatable scenarios for tech professionals, but it lacks the originality and dynamic visuals that would make it truly stand out on TikTok. There's potential for improvement in aligning with current trends and aesthetics."
+              }
+            }
+          }
+        ]
+      },
+      "aggregate": {
+        "overall": {
+          "mean": 2.354375,
+          "std": 0.23326487090858747
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.375,
+            "std": 0.5175491695067657
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.8125,
+            "std": 0.4629100498862757
+          },
+          "brand_integration": {
+            "mean": 2.9375,
+            "std": 0.3535533905932738
+          },
+          "platform_fit": {
+            "mean": 2.5,
+            "std": 0.3535533905932738
+          }
+        }
+      },
+      "raw_judge_outputs": null
+    }
+  },
+  {
+    "url": "https://www.eikona.io/",
+    "product_name": "Eikona",
+    "product_description": "Eikona is an AI-powered adaptive marketing engine that automates A/B testing and personalizes content at scale to enhance marketing performance.",
+    "pain_point": "Eikona addresses the challenge of ineffective A/B testing by eliminating guesswork and continuously optimizing content based on real-time user interactions.",
+    "approach": "baseline_few_shot",
+    "style": "VARUN",
+    "script_parts": [
+      "Visual: Varun is slumped over his desk in a dark room, staring blankly at his laptop which is filled with colorful A/B test results. The screen is glowing ominously. \n---\nScript: *Varun:* \"Bro, these A/B tests are so cooked. It's like I’m playing roulette with my marketing budget. \" \n*Varun:* \"How many times can I fail before my boss starts asking me if I’m still in the right job?\" ",
+      "Visual: Varun rolls his eyes and gestures dramatically, as if showing off the chaos of his marketing dashboard. \n---\nScript: *Varun:* \"Look at this! I’ve got 50 different ads running, and I still don’t know what works. It’s just one big digital dumpster fire. \" \n*Varun:* \"My boss thinks I’m a genius, but I’m just here praying for something to lock in. I might as well be throwing darts at a board!\" ",
+      "Visual: Varun suddenly perks up, sitting upright and leaning in closer to the camera with a glimmer of hope in his eyes. \n---\nScript: *Varun:* \"But then I found Eikona, bro. It’s like the marketing oracle I never knew I needed. \" \n*Varun:* \"It takes all the guesswork out of A/B testing and optimizes based on real-time user interactions. It’s like having a marketing assistant that never sleeps and can’t get distracted by TikTok!\" ",
+      "Visual: Varun is now standing confidently in front of his laptop, pointing at the screen with excitement, the room brightly lit as if a new day has dawned. \n---\nScript: *Varun:* \"So now, I’m not just guessing—I'm winning! Eikona has locked in my marketing strategy so hard, I'm basically a wizard now.  \" \n*Varun:* \"If you’re tired of your marketing being a hot mess, bro, get Eikona and watch your performance skyrocket!\" "
+    ],
+    "timestamp": 1765132362.235838,
+    "creativity_assessment": {
+      "temperature_block": {
+        "overall": {
+          "mean": 2.0,
+          "std": 0.0
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        },
+        "by_temperature": [
+          {
+            "temperature": 0.1,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario for tech professionals but lacks a strong pattern interrupt to fully capture attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they don't incorporate more creative transitions or unique visual elements."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has a familiar structure of problem-solution but includes a relatable twist with Varun's humorous take on A/B testing."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, making it mildly entertaining, but it doesn't reach a high level of engagement."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Eikona is integrated into the narrative in a functional way, but the connection could be more creatively embedded within the story."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted to TikTok's style, but it lacks a strong UGC feel and doesn't fully embrace TikTok trends."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative, with relatable humor and a clear message, but it doesn't push boundaries or fully leverage TikTok's potential."
+              }
+            }
+          },
+          {
+            "temperature": 0.2,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario for tech professionals but lacks a strong pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they don't incorporate highly creative transitions or effects."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has some interesting elements, like Varun's dramatic expressions, but the overall concept of struggling with A/B testing is somewhat familiar."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script contains humorous moments and relatable frustrations, making it mildly entertaining."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Eikona is introduced as a solution in a functional way, but the integration could be more seamless and creative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a reasonable TikTok feel with a casual tone, but it could better align with current trends and meme formats."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative, with relatable humor and a clear message, but lacks strong originality and dynamic visuals."
+              }
+            }
+          },
+          {
+            "temperature": 0.3,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario for tech professionals, but the concept of struggling with A/B testing is somewhat familiar."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic with handheld camera work, but they lack unique transitions or highly creative visual elements."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common pain point in a relatable way, but the storyline does not introduce a particularly unique twist."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has humorous moments and relatable dialogue, making it mildly entertaining, though it could be more engaging."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Eikona is integrated into the narrative as a solution, but the delivery feels somewhat standard and not particularly clever."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted for TikTok with a casual tone, but it doesn't fully embrace the platform's fast-paced, meme-driven style."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative, with relatable humor and a clear message, but lacks strong originality and dynamic visuals."
+              }
+            }
+          },
+          {
+            "temperature": 0.4,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario for tech professionals, but the imagery of a dark room and a slumped figure is somewhat predictable."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera and dynamic actions add some interest, but the visuals overall are not highly innovative or varied."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes relatable frustrations with A/B testing, but the storyline follows a familiar structure without significant twists."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has humorous elements and relatable dialogue, but it lacks strong emotional punch or standout comedic moments."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is integrated seamlessly into the narrative, enhancing the story rather than feeling forced or generic."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted for TikTok with a casual tone, but it doesn't fully embrace the platform's fast-paced, meme-driven culture."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "While the script has some creative elements and effectively integrates the product, it ultimately relies on familiar tropes and lacks standout originality."
+              }
+            }
+          },
+          {
+            "temperature": 0.5,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario of frustration with A/B testing, but the concept of a stressed marketer is somewhat familiar."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The use of handheld camera work adds a dynamic feel, but the visuals are still somewhat static and conventional for a desk setting."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the story of a marketer struggling with A/B testing is relatable, it lacks a unique twist or fresh angle that sets it apart."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script includes humorous elements and relatable dialogue, making it engaging, but it doesn't reach a high level of entertainment."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Eikona is introduced as a solution in a way that makes sense, but the integration feels somewhat conventional and not highly creative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some elements of TikTok culture, but it doesn't fully embrace the fast-paced, meme-driven style typical of the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative with relatable scenarios and humor, but lacks originality and strong engagement to stand out on TikTok."
+              }
+            }
+          },
+          {
+            "temperature": 0.6,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario for the target audience, but the concept of struggling with A/B tests is somewhat familiar."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The script includes some dynamic visuals like Varun's expressions and gestures, but lacks more innovative camera techniques or transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative presents a common problem in a humorous way, but the overall structure follows a predictable pattern seen in many ads."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has humorous elements and relatable frustrations, making it mildly entertaining, but it doesn't reach a high level of engagement."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Eikona is introduced as a solution in a relatable manner, but the integration feels somewhat standard and lacks a unique twist."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script fits the TikTok format reasonably well, with an informal tone, but could benefit from more trending elements or fast-paced editing."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The ad is creatively sound with relatable humor and a clear message, but it does not push the boundaries of originality or engagement."
+              }
+            }
+          },
+          {
+            "temperature": 0.7,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene presents a relatable and visually engaging scenario, but the idea of struggling with A/B testing is somewhat familiar in marketing narratives."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The script uses handheld camera work and varying scene dynamics, but lacks highly creative transitions or visually striking elements typical of TikTok."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the storyline includes a relatable character and a twist with the introduction of Eikona, it follows a somewhat predictable arc of problem-solution."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The humor and relatable frustrations of the character provide entertainment, but the script does not reach a high level of emotional engagement or humor."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Eikona is integrated into the narrative as a solution, but the transition from problem to solution could be more seamless and clever."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has elements suited for TikTok, such as a casual tone and relatable content, but it could better embrace TikTok trends and pacing."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The ad script is engaging and relatable, with a clear structure and humor, but it lacks the originality and dynamic creativity that could elevate it in the TikTok space."
+              }
+            }
+          },
+          {
+            "temperature": 0.8,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces Varun's frustration with A/B testing using a relatable and somewhat humorous analogy, but it's a familiar scenario for many in marketing."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals include some dynamic elements, like Varun's dramatic gestures and the contrasting dark and bright scenes, but they rely on basic handheld camera work."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has a decent structure with relatable pain points and a solution, but the overall story of struggling with A/B testing is somewhat common in marketing ads."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's humorous dialogue and relatable struggles provide some entertainment value, but the overall emotional engagement could be stronger."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is integrated seamlessly into the narrative as a solution to Varun's problem, enhancing the overall flow and entertainment without feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has a casual tone and relatable humor, fitting TikTok's style, but lacks some trendy elements or rapid pacing typical of successful TikTok content."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script presents a solid and relatable narrative with good brand integration, but it falls short in originality and dynamism, making it moderately creative overall."
+              }
+            }
+          }
+        ]
+      },
+      "persona_block": {
+        "overall": {
+          "mean": 2.0,
+          "std": 0.0
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.875,
+            "std": 0.3535533905932738
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        },
+        "by_persona": [
+          {
+            "persona": "Senior Creative Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Senior Creative Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "While the visual of a slumped-over tech professional is relatable, it feels somewhat predictable for the genre. The dialogue about roulette adds a touch of humor, but it doesn't fully break new ground."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera work adds a sense of immediacy, but the visuals overall lack dynamism and could benefit from more creative transitions or engaging visual elements that resonate with TikTok's fast-paced style."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative of struggling with A/B testing is relevant but not particularly innovative. The concept of finding a solution in Eikona is solid, yet it follows a familiar arc without surprising twists or unique angles."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has moments of humor and relatability, especially Varun's exaggerated expressions, but it lacks a strong emotional or comedic punch that would elevate its entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is seamlessly integrated into the narrative, transforming Varun's despair into hope. The product's benefits are clearly articulated through Varun's experience, enhancing the overall story."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script is somewhat aligned with TikTok's informal style, it could be more trend-aware. Incorporating popular TikTok formats or challenges could enhance its organic feel on the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script presents a relatable scenario and effectively integrates the product, but it ultimately plays it safe with familiar tropes and lacks the originality and dynamism that would make it truly stand out in a crowded TikTok feed."
+              }
+            }
+          },
+          {
+            "persona": "TikTok Native UGC Creator",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "TikTok Native UGC Creator",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable tone for tech professionals, but the idea of being overwhelmed by A/B tests isn't super original. It grabs attention but could be more surprising."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are somewhat static and lack dynamic transitions that would keep the energy high. More movement could enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the narrative of struggling with A/B testing is relatable, it feels a bit cliché. The 'marketing oracle' twist is a nice touch, but overall, the story could use a fresher angle."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's humor and relatable frustrations make it engaging, but the comedic moments could be pushed further. The pacing is decent, but it could be punchier to maximize laughs."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is integrated seamlessly into the narrative, transforming Varun's despair into hope without feeling forced. It enhances the story rather than disrupting it."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, like casual dialogue and humor, but it still feels a bit corporate. More trend-aware references or memes could boost its organic feel."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is solid and relatable for the target audience, but it lacks the originality and energy that would make it truly stand out on TikTok. It needs a bit more punch and creativity to feel fresh."
+              }
+            }
+          },
+          {
+            "persona": "Performance Marketer",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Performance Marketer",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene captures attention with a relatable scenario for tech professionals, but the concept of struggling with A/B testing is somewhat common."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are not particularly dynamic or innovative, relying on standard office settings."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative follows a familiar arc of problem-solution but lacks a unique twist that would make it stand out in a crowded market."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "While Varun's expressions and dialogue are somewhat engaging, the humor and emotional impact could be stronger to create a memorable experience."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is seamlessly integrated into the narrative, providing a clear solution to the problem presented and enhancing the overall story."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, but it feels more like a traditional ad rather than fully embracing the platform's native style and trends."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is functional and addresses the target audience's pain points effectively, but it lacks the originality and entertainment value needed to truly stand out on TikTok."
+              }
+            }
+          },
+          {
+            "persona": "Meme Culture Editor",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Meme Culture Editor",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook starts with Varun in a relatable yet dramatic situation, but the 'roulette' analogy feels a bit overdone in the meme space. It grabs attention but doesn't quite hit that chaotic energy that would make it instantly shareable."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are somewhat static and lack dynamic transitions that would elevate the chaotic vibe typical of TikTok. More creative camera angles or effects could enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the concept of struggling with A/B testing is relatable, the narrative doesn't break new ground. The 'digital dumpster fire' is a funny phrase, but it’s not particularly fresh or innovative in the meme landscape."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's comedic delivery and relatable frustrations provide some laughs, but the humor feels a bit forced at times. The punchlines are decent but lack the sharpness that would make them truly memorable."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is integrated seamlessly into the narrative. Varun's transformation from chaos to clarity feels natural and effectively highlights the product's benefits without feeling like a hard sell."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, but it doesn't fully embrace the platform's chaotic and fast-paced nature. It could benefit from more meme-native pacing and trend awareness to feel more organic."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has solid moments and a clear message, but it lacks the chaotic energy and sharp humor that would make it truly stand out in the TikTok meme culture. It’s entertaining but not groundbreaking."
+              }
+            }
+          },
+          {
+            "persona": "Cinematographer / Visual Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Cinematographer / Visual Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable tone for tech professionals, but the visual of a slumped figure at a desk is somewhat common and lacks a strong pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While the handheld camera adds a personal touch, the scenes rely heavily on static framing and lack dynamic movement or creative transitions that could elevate the visual storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative addresses a common pain point in marketing, but the execution feels predictable and doesn't offer a fresh angle or twist that would make it memorable."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's dialogue has some humorous elements, but the overall pacing and delivery could be more engaging to enhance the comedic impact."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is seamlessly integrated into the narrative as a solution, enhancing the story rather than feeling forced, which is crucial for effective storytelling."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok-like elements, but it doesn't fully embrace the platform's fast-paced, visually dynamic style, making it feel slightly out of place."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has a solid foundation with relatable content and effective brand integration, but it lacks the dynamic visual energy and originality needed to truly stand out on TikTok."
+              }
+            }
+          },
+          {
+            "persona": "Storytelling Coach",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Storytelling Coach",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable tone for tech professionals but lacks a truly surprising element to grab immediate attention."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals remain somewhat static and conventional, missing opportunities for dynamic storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the concept of A/B testing is relevant, the narrative follows a predictable structure without introducing a unique twist or perspective."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's dialogue has moments of humor and relatability, but the overall emotional impact feels moderate rather than highly engaging."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is seamlessly integrated into the narrative as a solution to Varun's problem, enhancing the story rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, but it could benefit from more trend-aware humor or visual flair to feel fully organic to the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is functional and addresses the target audience's pain points, but it lacks the originality and emotional depth that would elevate it to a higher creative level."
+              }
+            }
+          },
+          {
+            "persona": "Brand Strategist",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Brand Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene presents a relatable scenario for tech professionals, but the 'slumped over desk' trope is somewhat predictable, lacking a strong pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While the handheld camera adds a personal touch, the visuals could be more dynamic and engaging to truly capture the TikTok audience's attention."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative addresses a common pain point in marketing, but the overall structure follows a conventional problem-solution format without introducing particularly fresh elements."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "Varun's dialogue has moments of humor and relatability, but it doesn't fully leverage comedic potential or emotional depth to maximize engagement."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Eikona is introduced as a solution, but the transition from problem to solution feels somewhat forced, lacking a seamless integration into the narrative."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok-like elements, but it could benefit from a more native approach that aligns with current trends and user-generated content styles."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is moderately creative, addressing relevant issues for the target audience, but it falls short of delivering a truly original and compelling narrative that stands out on TikTok."
+              }
+            }
+          },
+          {
+            "persona": "Trend Analyst / Cultural Strategist",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Trend Analyst / Cultural Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene establishes a relatable struggle with A/B testing, but the imagery of a dark room and a slumped figure feels somewhat clichéd. While it captures attention, it lacks a unique twist that would make it truly scroll-stopping."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a sense of intimacy, but the visuals remain static and conventional. The chaotic marketing dashboard is a common trope, and while it conveys the message, it doesn't push the boundaries of visual storytelling on TikTok."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative follows a familiar arc of struggle followed by a solution, which is predictable. However, Varun's character adds a touch of humor and relatability, making it somewhat fresh, but it doesn't break new ground in storytelling."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "While Varun's dialogue has moments of humor, the overall entertainment factor feels moderate. The script engages the audience but lacks a strong comedic punch or emotional depth that would resonate more powerfully with viewers."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Eikona is seamlessly integrated into the narrative, transforming Varun's experience from chaos to clarity. The solution feels natural and enhances the story, showcasing the product's benefits effectively without feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The pacing and style are reasonably adapted for TikTok, but the overall execution feels slightly corporate. It could benefit from more playful elements or trending formats that align better with TikTok's native culture."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script presents a relatable scenario and effectively integrates the product, but it lacks the originality and dynamism needed to stand out on TikTok. It feels like it could use more trend awareness and a stronger hook to fully resonate with the platform's audience."
+              }
+            }
+          }
+        ]
+      },
+      "aggregate": {
+        "overall": {
+          "mean": 2.0,
+          "std": 0.0
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.5625,
+            "std": 0.4629100498862757
+          },
+          "platform_fit": {
+            "mean": 2.0,
+            "std": 0.0
+          }
+        }
+      },
+      "raw_judge_outputs": null
+    }
+  },
+  {
+    "url": "https://mistral.ai/",
+    "product_name": "Mistral AI",
+    "product_description": "Mistral AI offers a powerful and configurable AI platform for enterprises, enabling the customization, fine-tuning, and deployment of AI assistants, autonomous agents, and multimodal AI with open models.",
+    "pain_point": "It solves the challenge of deploying AI solutions securely and efficiently across various environments while retaining full control of data.",
+    "approach": "baseline_few_shot",
+    "style": "VARUN",
+    "script_parts": [
+      "Visual: Varun is sitting at a desk in a dimly lit room, staring blankly at multiple screens filled with error messages and code. The blue glow of the screens highlights his exhausted face. \n---\nScript: *Varun:* \"Bro, I swear, this AI deployment is cooked. I just wanted a virtual assistant, not a virtual headache.\"\n*Varun:* \"What is this? A secure data breach meets a corporate roast?\" \n\nVisual: Varun slumps back in his chair, rubbing his temples. A voiceover from his colleague Ramesh interrupts his misery. \n*Ramesh (VO):* \"What’s going on, bro?\"\n*Varun:* \"I’m trying to deploy this AI solution, and it's like trying to teach my dad how to use WhatsApp.\"\n\nVisual: Varun leans forward, pointing at a screen filled with complex diagrams. \n*Ramesh (VO):* \"Yikes. That sounds rough.\"\n*Varun:* \"Right? I just need something easy.\"\n",
+      "Visual: The screen transitions to a close-up of Varun, deadpan expression intensifying. \n---\nScript: *Varun:* \"I thought AI was supposed to make my life easier, not turn me into a corporate zombie.\"\n*Ramesh (VO):* \"Yeah, and instead of getting a helpful assistant, you just got a digital diva.\"\n\nVisual: Varun dramatically gestures at the screen, where colorful error messages flash. \n*Varun:* \"It’s like a bad relationship—lots of promises, but when it’s time to deliver... just crickets.\"\n*Ramesh (VO):* \"Have you tried asking it nicely?\"\n*Varun:* \"Yeah, bro, I tried. I was like, 'Please, just work.' And it was like, 'No thanks, I’m locked in on being dramatic.'\"\n",
+      "Visual: Varun now sits up straighter, a light bulb moment apparent on his face. \n---\nScript: *Varun:* \"Wait a minute. What if I just used Mistral AI? I heard it’s the real deal for deploying AI solutions securely without all this drama.\"\n*Ramesh (VO):* \"Bro, you’re onto something!\"\n\nVisual: Varun excitedly types on his laptop, the screen shows the Mistral AI interface. \n*Varun:* \"Look at this! Configurable, customizable, and it keeps my data safe? This is like finding out my dad is actually chill with tech!\"\n*Ramesh (VO):* \"Bro, you just leveled up your AI game!\"\n",
+      "Visual: Varun now relaxed on his couch, illuminated by a warm light, looking relieved. \n---\nScript: *Varun:* \"So, yeah, if you’re struggling with AI deployment, just hit up Mistral AI. No more drama, just smooth sailing, bro.\"\n*Ramesh (VO):* \"And hey, if it works, I expect a thank you card... or, like, a pizza.\"\n*Varun:* \"Deal! Just don’t mess with my data, or we’re back to square one, bro!\" \n*Varun directly to camera:* \"Mistral AI: Where your AI dreams don’t have to be nightmares.\"\n*Voiceover fades out with upbeat music.* "
+    ],
+    "timestamp": 1765132383.202376,
+    "creativity_assessment": {
+      "temperature_block": {
+        "overall": {
+          "mean": 2.26625,
+          "std": 0.10809222252978501
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "brand_integration": {
+            "mean": 2.5,
+            "std": 0.5345224838248488
+          },
+          "platform_fit": {
+            "mean": 2.625,
+            "std": 0.5175491695067657
+          }
+        },
+        "by_temperature": [
+          {
+            "temperature": 0.1,
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario for tech professionals, but the setup of a frustrated user is somewhat familiar in tech ads."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera and close-ups create a dynamic feel, but the visuals remain fairly standard without innovative transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has some interesting humor and relatable elements, but the overall structure follows a common problem-solution format."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The dialogue is humorous and relatable, making it engaging for the target audience, with a strong emotional connection."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Mistral AI is introduced as a solution in a relevant way, but the integration could be more seamless within the narrative."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script captures TikTok's casual tone and humor, with a fast-paced dialogue that aligns well with platform trends."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "While the script is entertaining and fits the platform well, it relies on some familiar tropes and could benefit from more innovative visuals and narrative twists."
+              }
+            }
+          },
+          {
+            "temperature": 0.2,
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario of tech frustration, which is somewhat engaging but not highly original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The use of handheld camera work and close-ups adds some dynamism, but the visuals remain fairly standard without unique transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes a humorous twist on AI deployment challenges, but the overall structure is somewhat familiar."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is funny and relatable, with strong dialogue that enhances engagement and has high replay value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the narrative, enhancing the story rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script captures TikTok's casual tone and pacing, with relatable humor and a conversational style that fits the platform well."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "While the script is entertaining and well-integrated, it lacks some originality in the hook and visuals, resulting in a solid but not exceptional creative execution."
+              }
+            }
+          },
+          {
+            "temperature": 0.3,
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene features a relatable struggle with AI deployment, which is somewhat engaging but not highly original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds some dynamism, but the visuals remain mostly static and conventional without unique transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes humor and relatable frustrations, but the overall concept of struggling with technology is familiar."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is humorous and relatable, with strong dialogue that adds emotional engagement and entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the narrative as a solution to the problems presented, enhancing the overall story."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some elements of TikTok culture, but it could benefit from faster pacing and more native trends."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "While the script is entertaining and integrates the product well, it lacks some originality and dynamic visuals typical of TikTok content."
+              }
+            }
+          },
+          {
+            "temperature": 0.4,
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene with Varun's frustrated expression and humorous dialogue about AI deployment is somewhat engaging, but the setup is familiar and lacks a strong pattern interrupt."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The use of handheld camera work and close-ups adds some dynamism, but overall the visuals remain fairly standard without innovative transitions or unique visual elements."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes relatable humor and a twist on the typical tech struggle, but it doesn't introduce a particularly fresh or unique storyline."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is highly entertaining with relatable humor and engaging dialogue, making it enjoyable for viewers, particularly in the tech space."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Mistral AI is presented as a solution in a clever way, but the integration could be more seamless and less reliant on the typical ad structure."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted to TikTok with a casual tone, but it lacks some of the fast-paced, meme-driven elements typical of highly engaging TikTok content."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "While the script has entertaining moments and some relatable humor, it falls short of being highly original or visually dynamic, making it a solid but not standout TikTok ad."
+              }
+            }
+          },
+          {
+            "temperature": 0.5,
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook features a relatable scenario for tech professionals, but the setup of frustration with AI is somewhat familiar."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera style adds a personal touch, but the visuals are mostly static without dynamic transitions or unique shots."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes humor and relatable metaphors, but the overall theme of struggling with technology is common."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is engaging and humorous, with relatable dialogue that resonates well with the target audience."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Mistral AI is introduced as a solution organically, but the integration could be more creatively woven into the narrative."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script captures a TikTok-native feel with a casual tone, humor, and relatable content that aligns with platform trends."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "While the script is entertaining and fits the platform well, it lacks distinct originality in some areas, balancing familiar themes with engaging humor."
+              }
+            }
+          },
+          {
+            "temperature": 0.6,
+            "overall_creativity": 2.33,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook uses humor to portray a relatable struggle with AI deployment, which is somewhat engaging but not highly original."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera and close-up shots add some dynamism, but the visuals remain somewhat static and conventional."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The script presents a relatable problem with a humorous twist but follows a familiar narrative structure of problem-solution."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The dialogue is witty and relatable, making it engaging and entertaining, particularly for a tech-savvy audience."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly introduced as a solution to the problem, enhancing the narrative rather than feeling forced."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script captures a TikTok-native tone with fast-paced dialogue and humor, aligning well with platform culture."
+              },
+              "overall_creativity": {
+                "score": 2.33,
+                "reason": "The script is entertaining and integrates the product well, but lacks some originality in the hook and visuals."
+              }
+            }
+          },
+          {
+            "temperature": 0.7,
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook presents a relatable scenario for tech professionals, but the setup of frustrated coding isn't particularly novel."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera and varied visuals are engaging, but they rely on common tropes of tech frustration without unique transitions."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative includes some humor and relatable frustrations with AI, but the storyline follows a familiar pattern in tech ads."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is funny and relatable, with clever dialogue that has strong comedic moments, enhancing engagement."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Mistral AI is introduced as a solution, but while it flows well, the product integration could be more creative and seamless."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script captures TikTok's casual tone and humor well, with a fast-paced, relatable narrative suitable for the platform."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "Overall, the script is entertaining and fits the platform well, but it could benefit from more originality in its hook and narrative structure."
+              }
+            }
+          },
+          {
+            "temperature": 0.8,
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene features a relatable tech struggle with humor, but the scenario of struggling with AI deployment is somewhat familiar."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, and the transitions between scenes are decent, but they lack more dynamic visual elements or interesting transitions typical of TikTok."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative introduces a humorous twist on a common tech issue, but it relies on familiar tropes of tech frustration and resolution."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is engaging and contains humorous exchanges that create relatability, making it entertaining and likely to resonate with the audience."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is integrated into the narrative in a way that feels natural and enhances the humor, rather than interrupting the flow."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script aligns reasonably well with TikTok's casual tone and humor, though it could benefit from more fast-paced cuts and trendy elements."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "While the script has strong entertainment and brand integration, it leans on familiar themes and lacks some dynamic visual creativity and originality."
+              }
+            }
+          }
+        ]
+      },
+      "persona_block": {
+        "overall": {
+          "mean": 2.15375,
+          "std": 0.16465873800075106
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.125,
+            "std": 0.3535533905932738
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.625,
+            "std": 0.5175491695067657
+          },
+          "brand_integration": {
+            "mean": 2.75,
+            "std": 0.4629100498862757
+          },
+          "platform_fit": {
+            "mean": 2.25,
+            "std": 0.4629100498862757
+          }
+        },
+        "by_persona": [
+          {
+            "persona": "Senior Creative Director",
+            "overall_creativity": 2.33,
+            "judge_output": {
+              "persona": "Senior Creative Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable tone for tech professionals but lacks a strong pattern interrupt. While Varun's frustration is engaging, it doesn't fully capitalize on the potential for a more surprising or visually arresting hook."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a sense of intimacy, but the visuals remain somewhat static and conventional. More dynamic camera moves or creative transitions could elevate the visual storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative touches on common frustrations with AI deployment, which is relatable but not particularly innovative. The 'bad relationship' metaphor is a familiar trope that could benefit from a fresher angle."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The dialogue is witty and engaging, with humorous exchanges that resonate well with the target audience. Varun's character and his banter with Ramesh provide a strong comedic impact, making it entertaining."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Mistral AI is introduced as a solution in a natural way, but the integration feels somewhat functional rather than creatively enhancing the narrative. A more seamless connection could strengthen the brand's presence."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script aligns well with TikTok's informal, conversational style and humor. The pacing and structure feel organic to the platform, making it likely to resonate with users."
+              },
+              "overall_creativity": {
+                "score": 2.33,
+                "reason": "While the script has strong entertainment value and fits well within TikTok's culture, it falls short in originality and visual dynamism. It successfully engages the audience but could push boundaries further for a more memorable impact."
+              }
+            }
+          },
+          {
+            "persona": "TikTok Native UGC Creator",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "TikTok Native UGC Creator",
+              "hook_originality": {
+                "score": 3.0,
+                "reason": "The opening scene with Varun's relatable struggle and humorous take on AI deployment grabs attention immediately. The 'virtual headache' line is a great hook that resonates with tech professionals."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals could be more dynamic. While the scenes are engaging, they don't fully utilize TikTok's potential for rapid transitions or creative effects."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative is somewhat fresh with the humorous take on AI deployment, but the 'bad relationship' metaphor feels a bit cliché. It works well enough, but I was hoping for something more innovative."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is genuinely funny and engaging, especially with Varun's comedic expressions and dialogue. The banter between Varun and Ramesh keeps it lively and relatable, making it enjoyable to watch."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the story. The solution feels like a natural progression from the problem, and Varun's excitement about it makes the brand feel like a genuine solution rather than a forced sell."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script has a casual tone and relatable humor, it could lean more into TikTok trends and aesthetics. It feels a bit more like a skit than a native TikTok video, but it's still reasonably adapted."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "Overall, the script is entertaining and relatable, with strong hooks and brand integration. However, it could benefit from more dynamic visuals and a slightly more original narrative to fully capture the TikTok vibe."
+              }
+            }
+          },
+          {
+            "persona": "Performance Marketer",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Performance Marketer",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook introduces a relatable scenario for tech professionals but lacks a strong pattern interrupt. While Varun's frustration is relatable, it doesn't immediately grab attention in a unique way."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The visuals are moderately dynamic, with handheld camera work and a clear setting. However, they could be more visually engaging or innovative to truly capture the TikTok audience's attention."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has some fresh elements, particularly the humorous take on AI deployment struggles, but overall it follows a familiar format of problem-solution without a standout twist."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script contains engaging dialogue and humor, particularly in Varun's expressions and interactions, but it doesn't reach a high level of emotional or comedic impact that would make it truly memorable."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the narrative as the solution to Varun's problems, enhancing the story without feeling forced. The messaging clearly articulates the product's benefits."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script is reasonably adapted for TikTok, with a conversational tone and relatable content, but it could benefit from more trend-aware elements or faster pacing to feel fully native to the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "While the script has solid brand integration and some engaging moments, it falls short in originality and entertainment value. It effectively communicates the product's benefits but lacks the strong hooks and dynamic visuals needed for high engagement on TikTok."
+              }
+            }
+          },
+          {
+            "persona": "Meme Culture Editor",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Meme Culture Editor",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The hook sets up a relatable tech struggle, but the 'virtual headache' line feels a bit too familiar. It grabs attention but lacks that meme-worthy shock factor."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch, but the visuals are somewhat static and don't utilize TikTok's dynamic potential. More chaotic transitions could amp up the energy."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The concept of AI deployment struggles is relatable, but the execution leans on clichés. The dad WhatsApp joke is funny, but it doesn't break new ground in storytelling."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "There are funny moments, especially with the digital diva line, but the pacing could be sharper. It engages but doesn't quite hit that viral comedic peak."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the narrative, providing a clear solution to the problem. The humor enhances the brand message without feeling forced."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While it has some TikTok elements, the overall vibe feels a bit too scripted for the platform. A more spontaneous, chaotic energy would make it feel more organic."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is entertaining and relatable, but it doesn't fully embrace the absurdity and chaotic energy that TikTok thrives on. It has potential but needs more meme-native flair."
+              }
+            }
+          },
+          {
+            "persona": "Cinematographer / Visual Director",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Cinematographer / Visual Director",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene has a relatable setup with Varun's frustration, but it lacks a strong visual or auditory hook that would instantly stop the scroll. The dialogue is humorous but doesn't visually pop."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "While there are some handheld camera movements that add a personal touch, the visuals are mostly static and lack dynamic transitions or creative framing that would elevate the storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative has a humorous take on AI deployment struggles, which is somewhat fresh, but the overall concept of tech frustration feels familiar and lacks a distinctive twist."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is engaging and funny, with relatable dialogue that resonates well with tech professionals. Varun's comedic expressions and the banter with Ramesh create a lively atmosphere."
+              },
+              "brand_integration": {
+                "score": 2.0,
+                "reason": "Mistral AI is introduced as a solution in a natural way, but the integration could be more seamless and visually compelling. The transition to the product feels a bit abrupt."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok elements, like humor and relatable scenarios, but it doesn't fully embrace the platform's fast-paced, visually dynamic style that could enhance engagement."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script has entertaining moments and relatable content, but it falls short in visual dynamism and originality. With more creative camera work and transitions, it could better capture the TikTok audience."
+              }
+            }
+          },
+          {
+            "persona": "Storytelling Coach",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "Storytelling Coach",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene presents a relatable scenario for tech professionals, but the setup feels somewhat familiar. While Varun's frustration is engaging, it lacks a strong pattern interrupt that would make it truly scroll-stopping."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera work adds a sense of intimacy and urgency, but the visuals remain fairly static and conventional. There are opportunities for more dynamic transitions or creative visual metaphors to enhance the storytelling."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The script has a moderately fresh take on the struggles of AI deployment, using humor and relatable dialogue. However, the underlying concept of a tech worker facing deployment issues is somewhat predictable, lacking a distinctive twist."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is highly entertaining, with witty dialogue and relatable humor that resonates with the target audience. Varun's character voice is strong, and the comedic elements effectively engage viewers throughout."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the narrative, providing a clear solution to Varun's problems without feeling forced. The dialogue naturally leads to the product's benefits, enhancing the overall story."
+              },
+              "platform_fit": {
+                "score": 3.0,
+                "reason": "The script aligns well with TikTok's fast-paced, humorous style, making it feel organic to the platform. The conversational tone and relatable scenarios are well-suited for TikTok's audience."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "While the script excels in entertainment value and brand integration, it falls short in originality and visual creativity. The narrative is engaging but could benefit from a more unique approach to the setup and visuals to elevate its overall impact."
+              }
+            }
+          },
+          {
+            "persona": "Brand Strategist",
+            "overall_creativity": 2.0,
+            "judge_output": {
+              "persona": "Brand Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene captures attention with a relatable scenario for tech professionals, but the humor and setup feel somewhat familiar rather than groundbreaking."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera work adds a personal touch, but the visuals are mostly static and do not leverage dynamic transitions or TikTok-native effects that could enhance engagement."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "While the concept of struggling with AI deployment is relevant, the narrative follows a predictable arc of problem-solution without introducing particularly fresh or innovative elements."
+              },
+              "entertainment_value": {
+                "score": 2.0,
+                "reason": "The script has engaging moments and humor, particularly in Varun's dialogue, but it lacks a strong emotional punch or surprising twists that would elevate its entertainment value."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the narrative, with Varun's realization about the product feeling natural and enhancing the story rather than disrupting it."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "The script has some TikTok-like elements, such as humor and relatable scenarios, but it could benefit from more trend-aware pacing and visual creativity to feel fully native to the platform."
+              },
+              "overall_creativity": {
+                "score": 2.0,
+                "reason": "The script is functional and addresses the target audience's pain points effectively, but it lacks the originality and dynamism needed to stand out in a crowded TikTok landscape."
+              }
+            }
+          },
+          {
+            "persona": "Trend Analyst / Cultural Strategist",
+            "overall_creativity": 2.3,
+            "judge_output": {
+              "persona": "Trend Analyst / Cultural Strategist",
+              "hook_originality": {
+                "score": 2.0,
+                "reason": "The opening scene sets a relatable tone with Varun's frustration, but the setup of a tech professional struggling with AI is somewhat predictable. While it grabs attention, it lacks a unique twist that would make it truly scroll-stopping."
+              },
+              "visual_creativity": {
+                "score": 2.0,
+                "reason": "The handheld camera adds a personal touch and the dim lighting creates a moody atmosphere. However, the visuals are mostly static and conventional, lacking dynamic transitions or innovative visual storytelling that would elevate the TikTok experience."
+              },
+              "narrative_originality": {
+                "score": 2.0,
+                "reason": "The narrative follows a common trope of tech frustration, which is relatable but not particularly fresh. The humor and dialogue provide some originality, but the overall concept feels familiar and could benefit from a more distinctive angle."
+              },
+              "entertainment_value": {
+                "score": 3.0,
+                "reason": "The script is engaging and humorous, with clever dialogue that resonates well with tech professionals. Varun's comedic expressions and relatable struggles create a strong emotional connection, making it entertaining throughout."
+              },
+              "brand_integration": {
+                "score": 3.0,
+                "reason": "Mistral AI is seamlessly integrated into the narrative as a solution to Varun's problems. The transition from frustration to relief feels natural, enhancing the overall message without feeling forced or disruptive."
+              },
+              "platform_fit": {
+                "score": 2.0,
+                "reason": "While the script has elements of TikTok culture, such as humor and relatable dialogue, it still feels slightly corporate and lacks the fast-paced, meme-driven style that characterizes the platform's most successful content. It could benefit from more trend-aware pacing and visual flair."
+              },
+              "overall_creativity": {
+                "score": 2.3,
+                "reason": "The script is entertaining and integrates the brand well, but it falls short in originality and visual dynamism. It captures some aspects of TikTok culture, yet it could be more innovative and aligned with current trends to fully resonate with the audience."
+              }
+            }
+          }
+        ]
+      },
+      "aggregate": {
+        "overall": {
+          "mean": 2.21,
+          "std": 0.16465873800075106
+        },
+        "criteria": {
+          "hook_originality": {
+            "mean": 2.0625,
+            "std": 0.3535533905932738
+          },
+          "visual_creativity": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "narrative_originality": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "entertainment_value": {
+            "mean": 2.8125,
+            "std": 0.5175491695067657
+          },
+          "brand_integration": {
+            "mean": 2.625,
+            "std": 0.5345224838248488
+          },
+          "platform_fit": {
+            "mean": 2.4375,
+            "std": 0.5175491695067657
+          }
+        }
+      },
+      "raw_judge_outputs": null
+    }
+  }
+]
