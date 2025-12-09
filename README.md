@@ -6,9 +6,7 @@
 
 **The Solution:** This research presents a **Universal Creative Engine**—a reusable, content-agnostic library designed to power *any* creative workflow, from video scripts and ads to Reddit posts and emails.
 
-**The Goal:** As stated in the challenge: *"If you solve this, the same engine powers everything we build."*
-
-> **Quick Start:** For installation, API usage, and code examples, see the [Usage Guide](USAGE.md).
+**The Goal:** This system addresses the core challenge of developing a unified, scalable engine capable of powering diverse content generation tasks.
 
 To achieve this, I implemented a **Divergence-Convergence pipeline** that separates "brainstorming" from "drafting." This document outlines the theoretical foundations, the architecture, and the quantitative results demonstrating that this engine is **measurably more creative** than our few-shot baseline.
 
