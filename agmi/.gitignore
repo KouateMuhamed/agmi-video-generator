@@ -7,7 +7,6 @@ venv/
 
 # Project specific
 artifacts/
-output/
 .DS_Store
 
 # IDEs
